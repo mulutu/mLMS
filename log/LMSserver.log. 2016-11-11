@@ -1,0 +1,20 @@
+[ 2016-11-11 21:46:19,928 ] [ INFO  ] Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@2ff5659e: startup date [Fri Nov 11 21:46:19 EAT 2016]; root of context hierarchy
+[ 2016-11-11 21:46:20,538 ] [ INFO  ] Loading XML bean definitions from class path resource [Spring-Quartz.xml]
+[ 2016-11-11 21:46:21,890 ] [ INFO  ] Starting beans in phase 2147483647
+[ 2016-11-11 21:46:21,890 ] [ INFO  ] Starting Quartz Scheduler now
+[ 2016-11-11 21:51:12,068 ] [ INFO  ] Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@2f410acf: startup date [Fri Nov 11 21:51:12 EAT 2016]; root of context hierarchy
+[ 2016-11-11 21:51:12,138 ] [ INFO  ] Loading XML bean definitions from class path resource [Spring-Quartz.xml]
+[ 2016-11-11 21:51:12,816 ] [ INFO  ] Starting beans in phase 2147483647
+[ 2016-11-11 21:51:12,816 ] [ INFO  ] Starting Quartz Scheduler now
+[ 2016-11-11 21:53:08,166 ] [ INFO  ] Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@2ff5659e: startup date [Fri Nov 11 21:53:08 EAT 2016]; root of context hierarchy
+[ 2016-11-11 21:53:08,216 ] [ INFO  ] Loading XML bean definitions from class path resource [Spring-Quartz.xml]
+[ 2016-11-11 21:53:08,844 ] [ INFO  ] Starting beans in phase 2147483647
+[ 2016-11-11 21:53:08,844 ] [ INFO  ] Starting Quartz Scheduler now
+[ 2016-11-11 22:00:49,241 ] [ INFO  ] Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@4ac68d3e: startup date [Fri Nov 11 22:00:49 EAT 2016]; root of context hierarchy
+[ 2016-11-11 22:00:49,313 ] [ INFO  ] Loading XML bean definitions from class path resource [Spring-Quartz.xml]
+[ 2016-11-11 22:00:50,025 ] [ INFO  ] Starting beans in phase 2147483647
+[ 2016-11-11 22:00:50,025 ] [ INFO  ] Starting Quartz Scheduler now
+[ 2016-11-11 22:12:07,168 ] [ INFO  ] Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@67f89fa3: startup date [Fri Nov 11 22:12:07 EAT 2016]; root of context hierarchy
+[ 2016-11-11 22:12:07,218 ] [ INFO  ] Loading XML bean definitions from class path resource [Spring-Quartz.xml]
+[ 2016-11-11 22:12:07,996 ] [ INFO  ] Starting beans in phase 2147483647
+[ 2016-11-11 22:12:07,996 ] [ INFO  ] Starting Quartz Scheduler now

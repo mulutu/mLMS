@@ -1,0 +1,60 @@
+[ 2016-12-11 22:27:51,332 ] [ INFO  ] Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@67f89fa3: startup date [Sun Dec 11 22:27:51 EAT 2016]; root of context hierarchy
+[ 2016-12-11 22:27:51,484 ] [ INFO  ] Loading XML bean definitions from class path resource [Spring-Quartz.xml]
+[ 2016-12-11 22:27:52,592 ] [ INFO  ] Starting beans in phase 2147483647
+[ 2016-12-11 22:27:52,593 ] [ INFO  ] Starting Quartz Scheduler now
+[ 2016-12-11 22:29:18,833 ] [ INFO  ] Processing login process---> : ISCUST|254720844418
+[ 2016-12-11 22:29:56,804 ] [ INFO  ] Processing code : 400000
+[ 2016-12-11 22:29:56,804 ] [ INFO  ] Process : LoanApplication
+[ 2016-12-11 22:29:56,859 ] [ INFO  ] LR561C1E751F : ReceivedISO [ 0200708040000800000012254720844418400000000000020000000000010001LR561C1E751F ]
+[ 2016-12-11 22:29:56,948 ] [ INFO  ] LR561C1E751F : CRB Status OK
+[ 2016-12-11 22:29:56,952 ] [ INFO  ] LR561C1E751F : Check customer loan limits
+[ 2016-12-11 22:29:57,308 ] [ INFO  ] LR561C1E751F : ResponseISO [ 0210600000000A10000012254720844418400000LR561C1E751F0012LNEE86C16A15 ]
+[ 2016-12-11 22:29:57,329 ] [ INFO  ] LR561C1E751F : ResponseISO [ | Field: (2) Value: (254720844418)| Field: (3) Value: (400000)| Field: (37) Value: (LR561C1E751F)| Field: (39) Value: (00)| Field: (44) Value: (LNEE86C16A15) ]
+[ 2016-12-11 22:30:53,775 ] [ INFO  ] Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@67f89fa3: startup date [Sun Dec 11 22:30:53 EAT 2016]; root of context hierarchy
+[ 2016-12-11 22:30:53,900 ] [ INFO  ] Loading XML bean definitions from class path resource [Spring-Quartz.xml]
+[ 2016-12-11 22:30:54,773 ] [ INFO  ] Starting beans in phase 2147483647
+[ 2016-12-11 22:30:54,773 ] [ INFO  ] Starting Quartz Scheduler now
+[ 2016-12-11 22:33:47,872 ] [ INFO  ] Processing login process---> : ISCUST|254720844418
+[ 2016-12-11 22:34:01,393 ] [ INFO  ] Processing code : 400000
+[ 2016-12-11 22:34:01,393 ] [ INFO  ] Process : LoanApplication
+[ 2016-12-11 22:34:01,395 ] [ INFO  ] LR17DD714EF9 : ReceivedISO [ 0200708040000800000012254720844418400000000000020000000000010001LR17DD714EF9 ]
+[ 2016-12-11 22:34:01,405 ] [ INFO  ] LR17DD714EF9 : CRB Status OK
+[ 2016-12-11 22:34:01,407 ] [ INFO  ] LR17DD714EF9 : Check customer loan limits
+[ 2016-12-11 22:34:01,604 ] [ INFO  ] LR17DD714EF9 : ResponseISO [ 0210600000000A10000012254720844418400000LR17DD714EF90012LN651809187F ]
+[ 2016-12-11 22:34:01,632 ] [ INFO  ] LR17DD714EF9 : ResponseISO [ | Field: (2) Value: (254720844418)| Field: (3) Value: (400000)| Field: (37) Value: (LR17DD714EF9)| Field: (39) Value: (00)| Field: (44) Value: (LN651809187F) ]
+[ 2016-12-11 22:43:23,738 ] [ INFO  ] Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@67f89fa3: startup date [Sun Dec 11 22:43:23 EAT 2016]; root of context hierarchy
+[ 2016-12-11 22:43:23,866 ] [ INFO  ] Loading XML bean definitions from class path resource [Spring-Quartz.xml]
+[ 2016-12-11 22:43:24,634 ] [ INFO  ] Starting beans in phase 2147483647
+[ 2016-12-11 22:43:24,635 ] [ INFO  ] Starting Quartz Scheduler now
+[ 2016-12-11 22:43:41,792 ] [ INFO  ] Processing login process---> : ISCUST|254720844418
+[ 2016-12-11 22:43:55,668 ] [ INFO  ] Processing code : 400000
+[ 2016-12-11 22:43:55,668 ] [ INFO  ] Process : LoanApplication
+[ 2016-12-11 22:43:55,670 ] [ INFO  ] LR9798C2DED7 : ReceivedISO [ 0200708040000800000012254720844418400000000000020000000000010001LR9798C2DED7 ]
+[ 2016-12-11 22:43:55,713 ] [ INFO  ] LR9798C2DED7 : CRB Status OK
+[ 2016-12-11 22:43:55,714 ] [ INFO  ] LR9798C2DED7 : Check customer loan limits
+[ 2016-12-11 22:43:55,854 ] [ INFO  ] LR9798C2DED7 : ResponseISO [ 0210600000000A10000012254720844418400000LR9798C2DED70012LNFAC86C3353 ]
+[ 2016-12-11 22:43:55,898 ] [ INFO  ] LR9798C2DED7 : ResponseISO [ | Field: (2) Value: (254720844418)| Field: (3) Value: (400000)| Field: (37) Value: (LR9798C2DED7)| Field: (39) Value: (00)| Field: (44) Value: (LNFAC86C3353) ]
+[ 2016-12-11 22:45:58,725 ] [ INFO  ] Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@67f89fa3: startup date [Sun Dec 11 22:45:58 EAT 2016]; root of context hierarchy
+[ 2016-12-11 22:45:58,806 ] [ INFO  ] Loading XML bean definitions from class path resource [Spring-Quartz.xml]
+[ 2016-12-11 22:45:59,610 ] [ INFO  ] Starting beans in phase 2147483647
+[ 2016-12-11 22:45:59,610 ] [ INFO  ] Starting Quartz Scheduler now
+[ 2016-12-11 22:46:17,384 ] [ INFO  ] Processing login process---> : ISCUST|254720844418
+[ 2016-12-11 22:46:30,777 ] [ INFO  ] Processing code : 400000
+[ 2016-12-11 22:46:30,777 ] [ INFO  ] Process : LoanApplication
+[ 2016-12-11 22:46:30,779 ] [ INFO  ] LR23AD4465E4 : ReceivedISO [ 0200708040000800000012254720844418400000000000020000000000010001LR23AD4465E4 ]
+[ 2016-12-11 22:46:30,790 ] [ INFO  ] LR23AD4465E4 : CRB Status OK
+[ 2016-12-11 22:46:30,793 ] [ INFO  ] LR23AD4465E4 : Check customer loan limits
+[ 2016-12-11 22:46:30,972 ] [ INFO  ] LR23AD4465E4 : ResponseISO [ 0210600000000A10000012254720844418400000LR23AD4465E40012LN18CE8C4883 ]
+[ 2016-12-11 22:46:30,999 ] [ INFO  ] LR23AD4465E4 : ResponseISO [ | Field: (2) Value: (254720844418)| Field: (3) Value: (400000)| Field: (37) Value: (LR23AD4465E4)| Field: (39) Value: (00)| Field: (44) Value: (LN18CE8C4883) ]
+[ 2016-12-11 23:07:12,270 ] [ INFO  ] Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@67f89fa3: startup date [Sun Dec 11 23:07:12 EAT 2016]; root of context hierarchy
+[ 2016-12-11 23:07:12,361 ] [ INFO  ] Loading XML bean definitions from class path resource [Spring-Quartz.xml]
+[ 2016-12-11 23:07:13,194 ] [ INFO  ] Starting beans in phase 2147483647
+[ 2016-12-11 23:07:13,194 ] [ INFO  ] Starting Quartz Scheduler now
+[ 2016-12-11 23:07:30,789 ] [ INFO  ] Processing login process---> : ISCUST|254720844418
+[ 2016-12-11 23:07:44,012 ] [ INFO  ] Processing code : 400000
+[ 2016-12-11 23:07:44,012 ] [ INFO  ] Process : LoanApplication
+[ 2016-12-11 23:07:44,013 ] [ INFO  ] LR36AF321469 : ReceivedISO [ 0200708040000800000012254720844418400000000000020000000000010001LR36AF321469 ]
+[ 2016-12-11 23:07:44,026 ] [ INFO  ] LR36AF321469 : CRB Status OK
+[ 2016-12-11 23:07:44,033 ] [ INFO  ] LR36AF321469 : Check customer loan limits
+[ 2016-12-11 23:07:44,185 ] [ INFO  ] LR36AF321469 : ResponseISO [ 0210600000000A10000012254720844418400000LR36AF3214690012LN5844F58F1F ]
+[ 2016-12-11 23:07:44,221 ] [ INFO  ] LR36AF321469 : ResponseISO [ | Field: (2) Value: (254720844418)| Field: (3) Value: (400000)| Field: (37) Value: (LR36AF321469)| Field: (39) Value: (00)| Field: (44) Value: (LN5844F58F1F) ]

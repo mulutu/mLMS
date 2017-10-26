@@ -1,0 +1,598 @@
+[ 2016-11-19 13:23:38,898 ] [ INFO  ] Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@67f89fa3: startup date [Sat Nov 19 13:23:38 EAT 2016]; root of context hierarchy
+[ 2016-11-19 13:23:39,126 ] [ INFO  ] Loading XML bean definitions from class path resource [Spring-Quartz.xml]
+[ 2016-11-19 13:23:40,885 ] [ INFO  ] Starting beans in phase 2147483647
+[ 2016-11-19 13:23:40,885 ] [ INFO  ] Starting Quartz Scheduler now
+[ 2016-11-19 13:25:52,525 ] [ INFO  ] Processing login process---> : ISCUST|254720844418
+[ 2016-11-19 13:26:07,741 ] [ INFO  ] Processing login process---> : ISCUST|254720844418
+[ 2016-11-19 13:26:26,923 ] [ INFO  ] Processing code : 300000
+[ 2016-11-19 13:26:26,923 ] [ INFO  ] Process : LoanRepayment
+[ 2016-11-19 13:26:26,933 ] [ INFO  ] LP108F41DE24 : ReceivedISO [ 0200700000000840000012254720844418300000000000000100LP108F41DE24                ]
+[ 2016-11-19 13:26:26,939 ] [ INFO  ] LP108F41DE24 : Loan number                
+[ 2016-11-19 13:26:27,002 ] [ INFO  ] LP108F41DE24 : Get loan details 
+[ 2016-11-19 13:26:27,016 ] [ FATAL ] LP108F41DE24 [ java.lang.NullPointerException ]
+[ 2016-11-19 13:28:01,079 ] [ INFO  ] Processing login process---> : ISCUST|254720844418
+[ 2016-11-19 13:32:27,734 ] [ INFO  ] Processing login process---> : ISCUST|254720844418
+[ 2016-11-19 14:11:40,541 ] [ INFO  ] Processing login process---> : ISCUST|254720844418
+[ 2016-11-19 14:12:02,423 ] [ INFO  ] Processing code : 400000
+[ 2016-11-19 14:12:02,423 ] [ INFO  ] Process : LoanApplication
+[ 2016-11-19 14:12:02,423 ] [ INFO  ] LR36FE26C85E : ReceivedISO [ 0200708040000800000012254720844418400000000000040000000000010001LR36FE26C85E ]
+[ 2016-11-19 14:12:02,473 ] [ INFO  ] LR36FE26C85E : CRB Status OK
+[ 2016-11-19 14:12:02,477 ] [ INFO  ] LR36FE26C85E : Check customer loan limits
+[ 2016-11-19 14:12:02,605 ] [ INFO  ] LR36FE26C85E : ResponseISO [ 0210600000000A10000012254720844418400000LR36FE26C85E0012LN33766FE481 ]
+[ 2016-11-19 14:12:02,626 ] [ INFO  ] LR36FE26C85E : ResponseISO [ | Field: (2) Value: (254720844418)| Field: (3) Value: (400000)| Field: (37) Value: (LR36FE26C85E)| Field: (39) Value: (00)| Field: (44) Value: (LN33766FE481) ]
+[ 2016-11-19 14:12:19,894 ] [ INFO  ] Processing login process---> : ISCUST|254720844418
+[ 2016-11-19 14:12:40,842 ] [ INFO  ] Processing code : 200000
+[ 2016-11-19 14:12:40,842 ] [ INFO  ] Process : LoanBalanceInquiry
+[ 2016-11-19 14:12:40,842 ] [ INFO  ] LB3BD56AD5E4 : ReceivedISO [ 0200600000000840000012254720844418200000LB3BD56AD5E4LN33766FE481    ]
+[ 2016-11-19 14:12:40,848 ] [ INFO  ] LB3BD56AD5E4 : LN33766FE481    Validate loan
+[ 2016-11-19 14:12:41,107 ] [ INFO  ] LB3BD56AD5E4 : ResponseISO [ 0210620000000A500000122547208444182000002016-12-19LB3BD56AD5E400LN33766FE481   0540400 ]
+[ 2016-11-19 14:12:41,117 ] [ INFO  ] LB3BD56AD5E4 : ResponseISO [ | Field: (2) Value: (254720844418)| Field: (3) Value: (200000)| Field: (7) Value: (2016-12-19)| Field: (37) Value: (LB3BD56AD5E4)| Field: (39) Value: (00)| Field: (42) Value: (LN33766FE481   )| Field: (44) Value: (40400) ]
+[ 2016-11-19 14:13:13,687 ] [ INFO  ] Processing code : 300000
+[ 2016-11-19 14:13:13,688 ] [ INFO  ] Process : LoanRepayment
+[ 2016-11-19 14:13:13,688 ] [ INFO  ] LP2DA256CC30 : ReceivedISO [ 0200700000000840000012254720844418300000000000010000LP2DA256CC30LN33766FE481    ]
+[ 2016-11-19 14:13:13,693 ] [ INFO  ] LP2DA256CC30 : Loan number LN33766FE481   
+[ 2016-11-19 14:13:13,698 ] [ INFO  ] LP2DA256CC30 : Get loan details 
+[ 2016-11-19 14:13:13,747 ] [ INFO  ] LP2DA256CC30 : Record loan repayment 
+[ 2016-11-19 14:13:13,747 ] [ INFO  ] LP2DA256CC30 : Current loan balance: 40400
+[ 2016-11-19 14:13:13,748 ] [ INFO  ] LP2DA256CC30 : Repay amount: 10000
+[ 2016-11-19 14:13:13,816 ] [ INFO  ] LP2DA256CC30 : LN33766FE481    Response ISO [ 0210600000000A50000012254720844418300000LP2DA256CC3000LN33766FE481   0540400 ]
+[ 2016-11-19 14:13:13,823 ] [ INFO  ] LP2DA256CC30 : LN33766FE481    Response ISO [ | Field: (2) Value: (254720844418)| Field: (3) Value: (300000)| Field: (37) Value: (LP2DA256CC30)| Field: (39) Value: (00)| Field: (42) Value: (LN33766FE481   )| Field: (44) Value: (40400) ]
+[ 2016-11-19 14:14:05,630 ] [ INFO  ] Processing login process---> : ISCUST|254720844418
+[ 2016-11-19 14:14:15,391 ] [ INFO  ] Processing code : 200000
+[ 2016-11-19 14:14:15,391 ] [ INFO  ] Process : LoanBalanceInquiry
+[ 2016-11-19 14:14:15,391 ] [ INFO  ] LB55A2C05717 : ReceivedISO [ 0200600000000840000012254720844418200000LB55A2C05717LN33766FE481    ]
+[ 2016-11-19 14:14:15,396 ] [ INFO  ] LB55A2C05717 : LN33766FE481    Validate loan
+[ 2016-11-19 14:14:15,483 ] [ INFO  ] LB55A2C05717 : ResponseISO [ 0210620000000A500000122547208444182000002016-12-19LB55A2C0571700LN33766FE481   0530400 ]
+[ 2016-11-19 14:14:15,489 ] [ INFO  ] LB55A2C05717 : ResponseISO [ | Field: (2) Value: (254720844418)| Field: (3) Value: (200000)| Field: (7) Value: (2016-12-19)| Field: (37) Value: (LB55A2C05717)| Field: (39) Value: (00)| Field: (42) Value: (LN33766FE481   )| Field: (44) Value: (30400) ]
+[ 2016-11-19 16:05:57,639 ] [ INFO  ] Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@67f89fa3: startup date [Sat Nov 19 16:05:57 EAT 2016]; root of context hierarchy
+[ 2016-11-19 16:05:57,740 ] [ INFO  ] Loading XML bean definitions from class path resource [Spring-Quartz.xml]
+[ 2016-11-19 16:05:58,742 ] [ INFO  ] Starting beans in phase 2147483647
+[ 2016-11-19 16:05:58,742 ] [ INFO  ] Starting Quartz Scheduler now
+[ 2016-11-19 16:08:16,631 ] [ INFO  ] Processing login process---> : ISCUST|254720844418
+[ 2016-11-19 16:08:26,488 ] [ INFO  ] Processing code : 200000
+[ 2016-11-19 16:08:26,488 ] [ INFO  ] Process : LoanBalanceInquiry
+[ 2016-11-19 16:08:26,489 ] [ INFO  ] LBF7B7D7F178 : ReceivedISO [ 0200600000000840000012254720844418200000LBF7B7D7F178LN33766FE481    ]
+[ 2016-11-19 16:08:26,495 ] [ INFO  ] LBF7B7D7F178 : LN33766FE481    Validate loan
+[ 2016-11-19 16:08:26,775 ] [ INFO  ] LBF7B7D7F178 : ResponseISO [ 0210620000000A500000122547208444182000002016-12-19LBF7B7D7F17800LN33766FE481   0530400 ]
+[ 2016-11-19 16:08:26,803 ] [ INFO  ] LBF7B7D7F178 : ResponseISO [ | Field: (2) Value: (254720844418)| Field: (3) Value: (200000)| Field: (7) Value: (2016-12-19)| Field: (37) Value: (LBF7B7D7F178)| Field: (39) Value: (00)| Field: (42) Value: (LN33766FE481   )| Field: (44) Value: (30400) ]
+[ 2016-11-19 16:08:42,634 ] [ INFO  ] Processing code : 200000
+[ 2016-11-19 16:08:42,634 ] [ INFO  ] Process : LoanBalanceInquiry
+[ 2016-11-19 16:08:42,634 ] [ INFO  ] LBC780487B2D : ReceivedISO [ 0200600000000840000012254720844418200000LBC780487B2DLN33766FE481    ]
+[ 2016-11-19 16:08:42,639 ] [ INFO  ] LBC780487B2D : LN33766FE481    Validate loan
+[ 2016-11-19 16:08:42,731 ] [ INFO  ] LBC780487B2D : ResponseISO [ 0210620000000A500000122547208444182000002016-12-19LBC780487B2D00LN33766FE481   0530400 ]
+[ 2016-11-19 16:08:42,738 ] [ INFO  ] LBC780487B2D : ResponseISO [ | Field: (2) Value: (254720844418)| Field: (3) Value: (200000)| Field: (7) Value: (2016-12-19)| Field: (37) Value: (LBC780487B2D)| Field: (39) Value: (00)| Field: (42) Value: (LN33766FE481   )| Field: (44) Value: (30400) ]
+[ 2016-11-19 16:08:47,462 ] [ INFO  ] Processing code : 200000
+[ 2016-11-19 16:08:47,462 ] [ INFO  ] Process : LoanBalanceInquiry
+[ 2016-11-19 16:08:47,462 ] [ INFO  ] LB963E618692 : ReceivedISO [ 0200600000000840000012254720844418200000LB963E618692LN33766FE481    ]
+[ 2016-11-19 16:08:47,467 ] [ INFO  ] LB963E618692 : LN33766FE481    Validate loan
+[ 2016-11-19 16:08:47,575 ] [ INFO  ] LB963E618692 : ResponseISO [ 0210620000000A500000122547208444182000002016-12-19LB963E61869200LN33766FE481   0530400 ]
+[ 2016-11-19 16:08:47,582 ] [ INFO  ] LB963E618692 : ResponseISO [ | Field: (2) Value: (254720844418)| Field: (3) Value: (200000)| Field: (7) Value: (2016-12-19)| Field: (37) Value: (LB963E618692)| Field: (39) Value: (00)| Field: (42) Value: (LN33766FE481   )| Field: (44) Value: (30400) ]
+[ 2016-11-19 16:13:27,318 ] [ INFO  ] Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@4ac68d3e: startup date [Sat Nov 19 16:13:27 EAT 2016]; root of context hierarchy
+[ 2016-11-19 16:13:27,375 ] [ INFO  ] Loading XML bean definitions from class path resource [Spring-Quartz.xml]
+[ 2016-11-19 16:13:28,248 ] [ INFO  ] Starting beans in phase 2147483647
+[ 2016-11-19 16:13:28,248 ] [ INFO  ] Starting Quartz Scheduler now
+[ 2016-11-19 16:13:46,565 ] [ INFO  ] Processing login process---> : ISCUST|254720844418
+[ 2016-11-19 16:14:01,591 ] [ INFO  ] Processing code : 200000
+[ 2016-11-19 16:14:01,591 ] [ INFO  ] Process : LoanBalanceInquiry
+[ 2016-11-19 16:14:01,591 ] [ INFO  ] LB4CECBD79FC : ReceivedISO [ 0200600000000840000012254720844418200000LB4CECBD79FCLN33766FE481    ]
+[ 2016-11-19 16:14:01,611 ] [ INFO  ] LB4CECBD79FC : LN33766FE481    Validate loan
+[ 2016-11-19 16:14:01,701 ] [ INFO  ] LB4CECBD79FC : ResponseISO [ 0210620000000A500000122547208444182000002016-12-19LB4CECBD79FC00LN33766FE481   0530400 ]
+[ 2016-11-19 16:14:01,711 ] [ INFO  ] LB4CECBD79FC : ResponseISO [ | Field: (2) Value: (254720844418)| Field: (3) Value: (200000)| Field: (7) Value: (2016-12-19)| Field: (37) Value: (LB4CECBD79FC)| Field: (39) Value: (00)| Field: (42) Value: (LN33766FE481   )| Field: (44) Value: (30400) ]
+[ 2016-11-19 16:14:05,105 ] [ INFO  ] Processing code : 200000
+[ 2016-11-19 16:14:05,105 ] [ INFO  ] Process : LoanBalanceInquiry
+[ 2016-11-19 16:14:05,115 ] [ INFO  ] LB4E38E5F2A1 : ReceivedISO [ 0200600000000840000012254720844418200000LB4E38E5F2A1LN33766FE481    ]
+[ 2016-11-19 16:14:05,115 ] [ INFO  ] LB4E38E5F2A1 : LN33766FE481    Validate loan
+[ 2016-11-19 16:14:05,205 ] [ INFO  ] LB4E38E5F2A1 : ResponseISO [ 0210620000000A500000122547208444182000002016-12-19LB4E38E5F2A100LN33766FE481   0530400 ]
+[ 2016-11-19 16:14:05,215 ] [ INFO  ] LB4E38E5F2A1 : ResponseISO [ | Field: (2) Value: (254720844418)| Field: (3) Value: (200000)| Field: (7) Value: (2016-12-19)| Field: (37) Value: (LB4E38E5F2A1)| Field: (39) Value: (00)| Field: (42) Value: (LN33766FE481   )| Field: (44) Value: (30400) ]
+[ 2016-11-19 16:20:04,262 ] [ INFO  ] Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@67f89fa3: startup date [Sat Nov 19 16:20:04 EAT 2016]; root of context hierarchy
+[ 2016-11-19 16:20:04,374 ] [ INFO  ] Loading XML bean definitions from class path resource [Spring-Quartz.xml]
+[ 2016-11-19 16:20:05,394 ] [ INFO  ] Starting beans in phase 2147483647
+[ 2016-11-19 16:20:05,394 ] [ INFO  ] Starting Quartz Scheduler now
+[ 2016-11-19 16:20:25,833 ] [ INFO  ] Processing login process---> : ISCUST|254720844418
+[ 2016-11-19 16:20:39,302 ] [ INFO  ] Processing code : 200000
+[ 2016-11-19 16:20:39,302 ] [ INFO  ] Process : LoanBalanceInquiry
+[ 2016-11-19 16:20:39,303 ] [ INFO  ] LB31763D9201 : ReceivedISO [ 0200600000000840000012254720844418200000LB31763D9201LN33766FE481    ]
+[ 2016-11-19 16:20:39,311 ] [ INFO  ] LB31763D9201 : LN33766FE481    Validate loan
+[ 2016-11-19 16:20:39,370 ] [ INFO  ] LB31763D9201 : ResponseISO [ 0210620000000A500000122547208444182000002016-12-19LB31763D920100LN33766FE481   0530400 ]
+[ 2016-11-19 16:20:39,382 ] [ INFO  ] LB31763D9201 : ResponseISO [ | Field: (2) Value: (254720844418)| Field: (3) Value: (200000)| Field: (7) Value: (2016-12-19)| Field: (37) Value: (LB31763D9201)| Field: (39) Value: (00)| Field: (42) Value: (LN33766FE481   )| Field: (44) Value: (30400) ]
+[ 2016-11-19 16:20:42,206 ] [ INFO  ] Processing code : 200000
+[ 2016-11-19 16:20:42,206 ] [ INFO  ] Process : LoanBalanceInquiry
+[ 2016-11-19 16:20:42,207 ] [ INFO  ] LBB056110F91 : ReceivedISO [ 0200600000000840000012254720844418200000LBB056110F91LN33766FE481    ]
+[ 2016-11-19 16:20:42,214 ] [ INFO  ] LBB056110F91 : LN33766FE481    Validate loan
+[ 2016-11-19 16:20:42,269 ] [ INFO  ] LBB056110F91 : ResponseISO [ 0210620000000A500000122547208444182000002016-12-19LBB056110F9100LN33766FE481   0530400 ]
+[ 2016-11-19 16:20:42,277 ] [ INFO  ] LBB056110F91 : ResponseISO [ | Field: (2) Value: (254720844418)| Field: (3) Value: (200000)| Field: (7) Value: (2016-12-19)| Field: (37) Value: (LBB056110F91)| Field: (39) Value: (00)| Field: (42) Value: (LN33766FE481   )| Field: (44) Value: (30400) ]
+[ 2016-11-19 16:23:31,060 ] [ INFO  ] Processing login process---> : ISCUST|254720844418
+[ 2016-11-19 16:29:18,774 ] [ INFO  ] Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@67f89fa3: startup date [Sat Nov 19 16:29:18 EAT 2016]; root of context hierarchy
+[ 2016-11-19 16:29:18,922 ] [ INFO  ] Loading XML bean definitions from class path resource [Spring-Quartz.xml]
+[ 2016-11-19 16:29:19,887 ] [ INFO  ] Starting beans in phase 2147483647
+[ 2016-11-19 16:29:19,887 ] [ INFO  ] Starting Quartz Scheduler now
+[ 2016-11-19 16:29:44,494 ] [ INFO  ] Processing login process---> : ISCUST|254720844418
+[ 2016-11-19 16:29:56,985 ] [ INFO  ] Processing code : 200000
+[ 2016-11-19 16:29:56,985 ] [ INFO  ] Process : LoanBalanceInquiry
+[ 2016-11-19 16:29:56,986 ] [ INFO  ] LB88EC1AFD9F : ReceivedISO [ 0200600000000840000012254720844418200000LB88EC1AFD9FLN33766FE481    ]
+[ 2016-11-19 16:29:56,992 ] [ INFO  ] LB88EC1AFD9F : LN33766FE481    Validate loan
+[ 2016-11-19 16:29:57,067 ] [ INFO  ] LB88EC1AFD9F : ResponseISO [ 0210620000000A500000122547208444182000002016-12-19LB88EC1AFD9F00LN33766FE481   0530400 ]
+[ 2016-11-19 16:29:57,088 ] [ INFO  ] LB88EC1AFD9F : ResponseISO [ | Field: (2) Value: (254720844418)| Field: (3) Value: (200000)| Field: (7) Value: (2016-12-19)| Field: (37) Value: (LB88EC1AFD9F)| Field: (39) Value: (00)| Field: (42) Value: (LN33766FE481   )| Field: (44) Value: (30400) ]
+[ 2016-11-19 16:29:59,762 ] [ INFO  ] Processing code : 200000
+[ 2016-11-19 16:29:59,762 ] [ INFO  ] Process : LoanBalanceInquiry
+[ 2016-11-19 16:29:59,763 ] [ INFO  ] LB89DA02051D : ReceivedISO [ 0200600000000840000012254720844418200000LB89DA02051DLN33766FE481    ]
+[ 2016-11-19 16:29:59,773 ] [ INFO  ] LB89DA02051D : LN33766FE481    Validate loan
+[ 2016-11-19 16:29:59,913 ] [ INFO  ] LB89DA02051D : ResponseISO [ 0210620000000A500000122547208444182000002016-12-19LB89DA02051D00LN33766FE481   0530400 ]
+[ 2016-11-19 16:29:59,951 ] [ INFO  ] LB89DA02051D : ResponseISO [ | Field: (2) Value: (254720844418)| Field: (3) Value: (200000)| Field: (7) Value: (2016-12-19)| Field: (37) Value: (LB89DA02051D)| Field: (39) Value: (00)| Field: (42) Value: (LN33766FE481   )| Field: (44) Value: (30400) ]
+[ 2016-11-19 16:35:59,562 ] [ INFO  ] Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@67f89fa3: startup date [Sat Nov 19 16:35:59 EAT 2016]; root of context hierarchy
+[ 2016-11-19 16:35:59,650 ] [ INFO  ] Loading XML bean definitions from class path resource [Spring-Quartz.xml]
+[ 2016-11-19 16:36:00,449 ] [ INFO  ] Starting beans in phase 2147483647
+[ 2016-11-19 16:36:00,449 ] [ INFO  ] Starting Quartz Scheduler now
+[ 2016-11-19 16:36:25,540 ] [ INFO  ] Processing login process---> : ISCUST|254720844418
+[ 2016-11-19 16:36:41,308 ] [ INFO  ] Processing code : 200000
+[ 2016-11-19 16:36:41,308 ] [ INFO  ] Process : LoanBalanceInquiry
+[ 2016-11-19 16:36:41,308 ] [ INFO  ] LBDA1BA0A8AE : ReceivedISO [ 0200600000000840000012254720844418200000LBDA1BA0A8AELN33766FE481    ]
+[ 2016-11-19 16:36:41,318 ] [ INFO  ] LBDA1BA0A8AE : LN33766FE481    Validate loan
+[ 2016-11-19 16:36:41,418 ] [ INFO  ] LBDA1BA0A8AE : ResponseISO [ 0210620000000A500000122547208444182000002016-12-19LBDA1BA0A8AE00LN33766FE481   0530400 ]
+[ 2016-11-19 16:36:41,428 ] [ INFO  ] LBDA1BA0A8AE : ResponseISO [ | Field: (2) Value: (254720844418)| Field: (3) Value: (200000)| Field: (7) Value: (2016-12-19)| Field: (37) Value: (LBDA1BA0A8AE)| Field: (39) Value: (00)| Field: (42) Value: (LN33766FE481   )| Field: (44) Value: (30400) ]
+[ 2016-11-19 16:36:44,582 ] [ INFO  ] Processing code : 200000
+[ 2016-11-19 16:36:44,582 ] [ INFO  ] Process : LoanBalanceInquiry
+[ 2016-11-19 16:36:44,582 ] [ INFO  ] LB2CA7A841D6 : ReceivedISO [ 0200600000000840000012254720844418200000LB2CA7A841D6LN33766FE481    ]
+[ 2016-11-19 16:36:44,583 ] [ INFO  ] LB2CA7A841D6 : LN33766FE481    Validate loan
+[ 2016-11-19 16:36:44,688 ] [ INFO  ] LB2CA7A841D6 : ResponseISO [ 0210620000000A500000122547208444182000002016-12-19LB2CA7A841D600LN33766FE481   0530400 ]
+[ 2016-11-19 16:36:44,698 ] [ INFO  ] LB2CA7A841D6 : ResponseISO [ | Field: (2) Value: (254720844418)| Field: (3) Value: (200000)| Field: (7) Value: (2016-12-19)| Field: (37) Value: (LB2CA7A841D6)| Field: (39) Value: (00)| Field: (42) Value: (LN33766FE481   )| Field: (44) Value: (30400) ]
+[ 2016-11-19 16:36:44,748 ] [ INFO  ] Processing code : 210000
+[ 2016-11-19 16:36:44,748 ] [ INFO  ] Process : AccountBalanceInquiry
+[ 2016-11-19 16:36:44,748 ] [ INFO  ] LPB0A38340CB : ReceivedISO [ 0200600000000840000012254720844418210000LPB0A38340CB1               ]
+[ 2016-11-19 16:36:44,748 ] [ INFO  ] LPB0A38340CB : 1               Validate FOSA account
+[ 2016-11-19 16:36:44,758 ] [ INFO  ] LPB0A38340CB : 1               Account does not exist!
+[ 2016-11-19 16:36:44,768 ] [ INFO  ] LPB0A38340CB : ResponseISO [ 0210600000000250000012254720844418210000191              20LOAN ALREADY CLEARED ]
+[ 2016-11-19 16:36:44,768 ] [ INFO  ] LPB0A38340CB : ResponseISO [ | Field: (2) Value: (254720844418)| Field: (3) Value: (210000)| Field: (39) Value: (19)| Field: (42) Value: (1              )| Field: (44) Value: (LOAN ALREADY CLEARED) ]
+[ 2016-11-19 16:40:36,402 ] [ INFO  ] Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@67f89fa3: startup date [Sat Nov 19 16:40:36 EAT 2016]; root of context hierarchy
+[ 2016-11-19 16:40:36,604 ] [ INFO  ] Loading XML bean definitions from class path resource [Spring-Quartz.xml]
+[ 2016-11-19 16:40:37,770 ] [ INFO  ] Starting beans in phase 2147483647
+[ 2016-11-19 16:40:37,771 ] [ INFO  ] Starting Quartz Scheduler now
+[ 2016-11-19 16:40:41,989 ] [ INFO  ] Processing login process---> : ISCUST|254720844418
+[ 2016-11-19 16:40:54,930 ] [ INFO  ] Processing code : 200000
+[ 2016-11-19 16:40:54,930 ] [ INFO  ] Process : LoanBalanceInquiry
+[ 2016-11-19 16:40:54,932 ] [ INFO  ] LB822000284E : ReceivedISO [ 0200600000000840000012254720844418200000LB822000284ELN33766FE481    ]
+[ 2016-11-19 16:40:54,940 ] [ INFO  ] LB822000284E : LN33766FE481    Validate loan
+[ 2016-11-19 16:40:55,060 ] [ INFO  ] LB822000284E : ResponseISO [ 0210620000000A500000122547208444182000002016-12-19LB822000284E00LN33766FE481   0530400 ]
+[ 2016-11-19 16:40:55,071 ] [ INFO  ] LB822000284E : ResponseISO [ | Field: (2) Value: (254720844418)| Field: (3) Value: (200000)| Field: (7) Value: (2016-12-19)| Field: (37) Value: (LB822000284E)| Field: (39) Value: (00)| Field: (42) Value: (LN33766FE481   )| Field: (44) Value: (30400) ]
+[ 2016-11-19 16:40:57,341 ] [ INFO  ] Processing code : 200000
+[ 2016-11-19 16:40:57,341 ] [ INFO  ] Process : LoanBalanceInquiry
+[ 2016-11-19 16:40:57,341 ] [ INFO  ] LBD8104D72B3 : ReceivedISO [ 0200600000000840000012254720844418200000LBD8104D72B3LN33766FE481    ]
+[ 2016-11-19 16:40:57,348 ] [ INFO  ] LBD8104D72B3 : LN33766FE481    Validate loan
+[ 2016-11-19 16:40:57,418 ] [ INFO  ] LBD8104D72B3 : ResponseISO [ 0210620000000A500000122547208444182000002016-12-19LBD8104D72B300LN33766FE481   0530400 ]
+[ 2016-11-19 16:40:57,427 ] [ INFO  ] LBD8104D72B3 : ResponseISO [ | Field: (2) Value: (254720844418)| Field: (3) Value: (200000)| Field: (7) Value: (2016-12-19)| Field: (37) Value: (LBD8104D72B3)| Field: (39) Value: (00)| Field: (42) Value: (LN33766FE481   )| Field: (44) Value: (30400) ]
+[ 2016-11-19 16:40:57,434 ] [ INFO  ] Processing code : 210000
+[ 2016-11-19 16:40:57,434 ] [ INFO  ] Process : AccountBalanceInquiry
+[ 2016-11-19 16:40:57,434 ] [ INFO  ] LP57FA9440A0 : ReceivedISO [ 0200600000000840000012254720844418210000LP57FA9440A01               ]
+[ 2016-11-19 16:40:57,447 ] [ INFO  ] LP57FA9440A0 : 1               Validate FOSA account
+[ 2016-11-19 16:40:57,468 ] [ INFO  ] LP57FA9440A0 : 1               Account does not exist!
+[ 2016-11-19 16:40:57,480 ] [ INFO  ] LP57FA9440A0 : ResponseISO [ 0210600000000250000012254720844418210000191              20LOAN ALREADY CLEARED ]
+[ 2016-11-19 16:40:57,488 ] [ INFO  ] LP57FA9440A0 : ResponseISO [ | Field: (2) Value: (254720844418)| Field: (3) Value: (210000)| Field: (39) Value: (19)| Field: (42) Value: (1              )| Field: (44) Value: (LOAN ALREADY CLEARED) ]
+[ 2016-11-19 16:42:30,245 ] [ INFO  ] Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@67f89fa3: startup date [Sat Nov 19 16:42:30 EAT 2016]; root of context hierarchy
+[ 2016-11-19 16:42:30,358 ] [ INFO  ] Loading XML bean definitions from class path resource [Spring-Quartz.xml]
+[ 2016-11-19 16:42:31,112 ] [ INFO  ] Starting beans in phase 2147483647
+[ 2016-11-19 16:42:31,112 ] [ INFO  ] Starting Quartz Scheduler now
+[ 2016-11-19 16:43:08,613 ] [ INFO  ] Processing login process---> : ISCUST|254720844418
+[ 2016-11-19 16:43:19,312 ] [ INFO  ] Processing code : 200000
+[ 2016-11-19 16:43:19,312 ] [ INFO  ] Process : LoanBalanceInquiry
+[ 2016-11-19 16:43:19,322 ] [ INFO  ] LB97BF1B4DBC : ReceivedISO [ 0200600000000840000012254720844418200000LB97BF1B4DBCLN33766FE481    ]
+[ 2016-11-19 16:43:19,322 ] [ INFO  ] LB97BF1B4DBC : LN33766FE481    Validate loan
+[ 2016-11-19 16:43:19,432 ] [ INFO  ] LB97BF1B4DBC : ResponseISO [ 0210620000000A500000122547208444182000002016-12-19LB97BF1B4DBC00LN33766FE481   0530400 ]
+[ 2016-11-19 16:43:19,452 ] [ INFO  ] LB97BF1B4DBC : ResponseISO [ | Field: (2) Value: (254720844418)| Field: (3) Value: (200000)| Field: (7) Value: (2016-12-19)| Field: (37) Value: (LB97BF1B4DBC)| Field: (39) Value: (00)| Field: (42) Value: (LN33766FE481   )| Field: (44) Value: (30400) ]
+[ 2016-11-19 16:43:21,974 ] [ INFO  ] Processing code : 200000
+[ 2016-11-19 16:43:21,974 ] [ INFO  ] Process : LoanBalanceInquiry
+[ 2016-11-19 16:43:21,974 ] [ INFO  ] LB498FCFC841 : ReceivedISO [ 0200600000000840000012254720844418200000LB498FCFC841LN33766FE481    ]
+[ 2016-11-19 16:43:21,984 ] [ INFO  ] LB498FCFC841 : LN33766FE481    Validate loan
+[ 2016-11-19 16:43:22,035 ] [ INFO  ] LB498FCFC841 : ResponseISO [ 0210620000000A500000122547208444182000002016-12-19LB498FCFC84100LN33766FE481   0530400 ]
+[ 2016-11-19 16:43:22,056 ] [ INFO  ] LB498FCFC841 : ResponseISO [ | Field: (2) Value: (254720844418)| Field: (3) Value: (200000)| Field: (7) Value: (2016-12-19)| Field: (37) Value: (LB498FCFC841)| Field: (39) Value: (00)| Field: (42) Value: (LN33766FE481   )| Field: (44) Value: (30400) ]
+[ 2016-11-19 16:43:22,076 ] [ INFO  ] Processing code : 210000
+[ 2016-11-19 16:43:22,076 ] [ INFO  ] Process : AccountBalanceInquiry
+[ 2016-11-19 16:43:22,076 ] [ INFO  ] LP065132EF70 : ReceivedISO [ 0200600000000840000012254720844418210000LP065132EF701               ]
+[ 2016-11-19 16:43:22,085 ] [ INFO  ] LP065132EF70 : 1               Validate FOSA account
+[ 2016-11-19 16:43:22,104 ] [ INFO  ] LP065132EF70 : ResponseISO [ 0210600000000A50000012254720844418210000LP065132EF70001              041000 ]
+[ 2016-11-19 16:43:22,111 ] [ INFO  ] LP065132EF70 : ResponseISO [ | Field: (2) Value: (254720844418)| Field: (3) Value: (210000)| Field: (37) Value: (LP065132EF70)| Field: (39) Value: (00)| Field: (42) Value: (1              )| Field: (44) Value: (1000) ]
+[ 2016-11-19 16:46:37,270 ] [ INFO  ] Processing login process---> : ISCUST|254720844418
+[ 2016-11-19 16:46:48,209 ] [ INFO  ] Processing code : 200000
+[ 2016-11-19 16:46:48,209 ] [ INFO  ] Process : LoanBalanceInquiry
+[ 2016-11-19 16:46:48,209 ] [ INFO  ] LB70DBDD8212 : ReceivedISO [ 0200600000000840000012254720844418200000LB70DBDD8212LN33766FE481    ]
+[ 2016-11-19 16:46:48,209 ] [ INFO  ] LB70DBDD8212 : LN33766FE481    Validate loan
+[ 2016-11-19 16:46:48,299 ] [ INFO  ] LB70DBDD8212 : ResponseISO [ 0210620000000A500000122547208444182000002016-12-19LB70DBDD821200LN33766FE481   0530400 ]
+[ 2016-11-19 16:46:48,309 ] [ INFO  ] LB70DBDD8212 : ResponseISO [ | Field: (2) Value: (254720844418)| Field: (3) Value: (200000)| Field: (7) Value: (2016-12-19)| Field: (37) Value: (LB70DBDD8212)| Field: (39) Value: (00)| Field: (42) Value: (LN33766FE481   )| Field: (44) Value: (30400) ]
+[ 2016-11-19 16:46:50,911 ] [ INFO  ] Processing code : 200000
+[ 2016-11-19 16:46:50,911 ] [ INFO  ] Process : LoanBalanceInquiry
+[ 2016-11-19 16:46:50,911 ] [ INFO  ] LBE9FFF61F7C : ReceivedISO [ 0200600000000840000012254720844418200000LBE9FFF61F7CLN33766FE481    ]
+[ 2016-11-19 16:46:50,921 ] [ INFO  ] LBE9FFF61F7C : LN33766FE481    Validate loan
+[ 2016-11-19 16:46:50,981 ] [ INFO  ] LBE9FFF61F7C : ResponseISO [ 0210620000000A500000122547208444182000002016-12-19LBE9FFF61F7C00LN33766FE481   0530400 ]
+[ 2016-11-19 16:46:50,982 ] [ INFO  ] LBE9FFF61F7C : ResponseISO [ | Field: (2) Value: (254720844418)| Field: (3) Value: (200000)| Field: (7) Value: (2016-12-19)| Field: (37) Value: (LBE9FFF61F7C)| Field: (39) Value: (00)| Field: (42) Value: (LN33766FE481   )| Field: (44) Value: (30400) ]
+[ 2016-11-19 16:46:51,005 ] [ INFO  ] Processing code : 210000
+[ 2016-11-19 16:46:51,005 ] [ INFO  ] Process : AccountBalanceInquiry
+[ 2016-11-19 16:46:51,005 ] [ INFO  ] AB626EBD5427 : ReceivedISO [ 0200600000000840000012254720844418210000AB626EBD54271               ]
+[ 2016-11-19 16:46:51,011 ] [ INFO  ] AB626EBD5427 : 1               Validate FOSA account
+[ 2016-11-19 16:46:51,023 ] [ INFO  ] AB626EBD5427 : ResponseISO [ 0210600000000A50000012254720844418210000AB626EBD5427001              041000 ]
+[ 2016-11-19 16:46:51,029 ] [ INFO  ] AB626EBD5427 : ResponseISO [ | Field: (2) Value: (254720844418)| Field: (3) Value: (210000)| Field: (37) Value: (AB626EBD5427)| Field: (39) Value: (00)| Field: (42) Value: (1              )| Field: (44) Value: (1000) ]
+[ 2016-11-19 16:47:27,000 ] [ INFO  ] Processing code : 210000
+[ 2016-11-19 16:47:27,000 ] [ INFO  ] Process : AccountBalanceInquiry
+[ 2016-11-19 16:47:27,001 ] [ INFO  ] ABC94ECC2B63 : ReceivedISO [ 0200600000000840000012254720844418210000ABC94ECC2B631               ]
+[ 2016-11-19 16:47:27,010 ] [ INFO  ] ABC94ECC2B63 : 1               Validate FOSA account
+[ 2016-11-19 16:47:27,017 ] [ INFO  ] ABC94ECC2B63 : ResponseISO [ 0210600000000A50000012254720844418210000ABC94ECC2B63001              041000 ]
+[ 2016-11-19 16:47:27,026 ] [ INFO  ] ABC94ECC2B63 : ResponseISO [ | Field: (2) Value: (254720844418)| Field: (3) Value: (210000)| Field: (37) Value: (ABC94ECC2B63)| Field: (39) Value: (00)| Field: (42) Value: (1              )| Field: (44) Value: (1000) ]
+[ 2016-11-19 16:47:27,074 ] [ INFO  ] Processing code : 300000
+[ 2016-11-19 16:47:27,074 ] [ INFO  ] Process : LoanRepayment
+[ 2016-11-19 16:47:27,074 ] [ INFO  ] LPE27EEA1A58 : ReceivedISO [ 0200700000000840000012254720844418300000000000000100LPE27EEA1A58LN33766FE481    ]
+[ 2016-11-19 16:47:27,084 ] [ INFO  ] LPE27EEA1A58 : Loan number LN33766FE481   
+[ 2016-11-19 16:47:27,084 ] [ INFO  ] LPE27EEA1A58 : Get loan details 
+[ 2016-11-19 16:47:27,154 ] [ INFO  ] LPE27EEA1A58 : Record loan repayment 
+[ 2016-11-19 16:47:27,154 ] [ INFO  ] LPE27EEA1A58 : Current loan balance: 30400
+[ 2016-11-19 16:47:27,154 ] [ INFO  ] LPE27EEA1A58 : Repay amount: 100
+[ 2016-11-19 16:47:27,214 ] [ INFO  ] LPE27EEA1A58 : LN33766FE481    Response ISO [ 0210600000000A50000012254720844418300000LPE27EEA1A5800LN33766FE481   0530400 ]
+[ 2016-11-19 16:47:27,224 ] [ INFO  ] LPE27EEA1A58 : LN33766FE481    Response ISO [ | Field: (2) Value: (254720844418)| Field: (3) Value: (300000)| Field: (37) Value: (LPE27EEA1A58)| Field: (39) Value: (00)| Field: (42) Value: (LN33766FE481   )| Field: (44) Value: (30400) ]
+[ 2016-11-19 16:47:38,539 ] [ INFO  ] Processing code : 200000
+[ 2016-11-19 16:47:38,549 ] [ INFO  ] Process : LoanBalanceInquiry
+[ 2016-11-19 16:47:38,549 ] [ INFO  ] LBDE50074C6E : ReceivedISO [ 0200600000000840000012254720844418200000LBDE50074C6ELN33766FE481    ]
+[ 2016-11-19 16:47:38,559 ] [ INFO  ] LBDE50074C6E : LN33766FE481    Validate loan
+[ 2016-11-19 16:47:38,679 ] [ INFO  ] LBDE50074C6E : ResponseISO [ 0210620000000A500000122547208444182000002016-12-19LBDE50074C6E00LN33766FE481   0530300 ]
+[ 2016-11-19 16:47:38,689 ] [ INFO  ] LBDE50074C6E : ResponseISO [ | Field: (2) Value: (254720844418)| Field: (3) Value: (200000)| Field: (7) Value: (2016-12-19)| Field: (37) Value: (LBDE50074C6E)| Field: (39) Value: (00)| Field: (42) Value: (LN33766FE481   )| Field: (44) Value: (30300) ]
+[ 2016-11-19 16:48:01,397 ] [ INFO  ] Processing code : 210000
+[ 2016-11-19 16:48:01,397 ] [ INFO  ] Process : AccountBalanceInquiry
+[ 2016-11-19 16:48:01,397 ] [ INFO  ] AB4C48E0BE58 : ReceivedISO [ 0200600000000840000012254720844418210000AB4C48E0BE581               ]
+[ 2016-11-19 16:48:01,397 ] [ INFO  ] AB4C48E0BE58 : 1               Validate FOSA account
+[ 2016-11-19 16:48:01,398 ] [ INFO  ] AB4C48E0BE58 : ResponseISO [ 0210600000000A50000012254720844418210000AB4C48E0BE58001              041000 ]
+[ 2016-11-19 16:48:01,398 ] [ INFO  ] AB4C48E0BE58 : ResponseISO [ | Field: (2) Value: (254720844418)| Field: (3) Value: (210000)| Field: (37) Value: (AB4C48E0BE58)| Field: (39) Value: (00)| Field: (42) Value: (1              )| Field: (44) Value: (1000) ]
+[ 2016-11-19 16:48:01,425 ] [ INFO  ] Processing code : 300000
+[ 2016-11-19 16:48:01,425 ] [ INFO  ] Process : LoanRepayment
+[ 2016-11-19 16:48:01,426 ] [ INFO  ] LPC6DC422BCA : ReceivedISO [ 0200700000000840000012254720844418300000000000000100LPC6DC422BCALN33766FE481    ]
+[ 2016-11-19 16:48:01,434 ] [ INFO  ] LPC6DC422BCA : Loan number LN33766FE481   
+[ 2016-11-19 16:48:01,435 ] [ INFO  ] LPC6DC422BCA : Get loan details 
+[ 2016-11-19 16:48:01,487 ] [ INFO  ] LPC6DC422BCA : Record loan repayment 
+[ 2016-11-19 16:48:01,487 ] [ INFO  ] LPC6DC422BCA : Current loan balance: 30300
+[ 2016-11-19 16:48:01,487 ] [ INFO  ] LPC6DC422BCA : Repay amount: 100
+[ 2016-11-19 16:48:01,520 ] [ INFO  ] LPC6DC422BCA : LN33766FE481    Response ISO [ 0210600000000A50000012254720844418300000LPC6DC422BCA00LN33766FE481   0530300 ]
+[ 2016-11-19 16:48:01,524 ] [ INFO  ] LPC6DC422BCA : LN33766FE481    Response ISO [ | Field: (2) Value: (254720844418)| Field: (3) Value: (300000)| Field: (37) Value: (LPC6DC422BCA)| Field: (39) Value: (00)| Field: (42) Value: (LN33766FE481   )| Field: (44) Value: (30300) ]
+[ 2016-11-19 16:48:10,570 ] [ INFO  ] Processing code : 200000
+[ 2016-11-19 16:48:10,570 ] [ INFO  ] Process : LoanBalanceInquiry
+[ 2016-11-19 16:48:10,570 ] [ INFO  ] LBB6F4FCC6F5 : ReceivedISO [ 0200600000000840000012254720844418200000LBB6F4FCC6F5LN33766FE481    ]
+[ 2016-11-19 16:48:10,580 ] [ INFO  ] LBB6F4FCC6F5 : LN33766FE481    Validate loan
+[ 2016-11-19 16:48:10,640 ] [ INFO  ] LBB6F4FCC6F5 : ResponseISO [ 0210620000000A500000122547208444182000002016-12-19LBB6F4FCC6F500LN33766FE481   0530200 ]
+[ 2016-11-19 16:48:10,650 ] [ INFO  ] LBB6F4FCC6F5 : ResponseISO [ | Field: (2) Value: (254720844418)| Field: (3) Value: (200000)| Field: (7) Value: (2016-12-19)| Field: (37) Value: (LBB6F4FCC6F5)| Field: (39) Value: (00)| Field: (42) Value: (LN33766FE481   )| Field: (44) Value: (30200) ]
+[ 2016-11-19 17:02:38,386 ] [ INFO  ] Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@67f89fa3: startup date [Sat Nov 19 17:02:38 EAT 2016]; root of context hierarchy
+[ 2016-11-19 17:02:38,559 ] [ INFO  ] Loading XML bean definitions from class path resource [Spring-Quartz.xml]
+[ 2016-11-19 17:02:39,520 ] [ INFO  ] Starting beans in phase 2147483647
+[ 2016-11-19 17:02:39,520 ] [ INFO  ] Starting Quartz Scheduler now
+[ 2016-11-19 17:44:37,497 ] [ INFO  ] Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@67f89fa3: startup date [Sat Nov 19 17:44:37 EAT 2016]; root of context hierarchy
+[ 2016-11-19 17:44:37,597 ] [ INFO  ] Loading XML bean definitions from class path resource [Spring-Quartz.xml]
+[ 2016-11-19 17:44:38,395 ] [ INFO  ] Starting beans in phase 2147483647
+[ 2016-11-19 17:44:38,395 ] [ INFO  ] Starting Quartz Scheduler now
+[ 2016-11-19 17:45:59,781 ] [ INFO  ] Processing login process---> : ISCUST|254720844418
+[ 2016-11-19 17:45:59,799 ] [ INFO  ] isCustomer >>> failed
+[ 2016-11-19 17:46:52,538 ] [ INFO  ] Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@67f89fa3: startup date [Sat Nov 19 17:46:52 EAT 2016]; root of context hierarchy
+[ 2016-11-19 17:46:52,630 ] [ INFO  ] Loading XML bean definitions from class path resource [Spring-Quartz.xml]
+[ 2016-11-19 17:46:53,536 ] [ INFO  ] Starting beans in phase 2147483647
+[ 2016-11-19 17:46:53,537 ] [ INFO  ] Starting Quartz Scheduler now
+[ 2016-11-19 17:46:59,174 ] [ INFO  ] Processing login process---> : ISCUST|254720844418
+[ 2016-11-19 17:47:26,339 ] [ INFO  ] Processing code : 210000
+[ 2016-11-19 17:47:26,339 ] [ INFO  ] Process : AccountBalanceInquiry
+[ 2016-11-19 17:47:26,341 ] [ INFO  ] AB4EB445DF16 : ReceivedISO [ 0200600000000840000012254720844418210000AB4EB445DF16ACCOUNT_NO      ]
+[ 2016-11-19 17:47:26,350 ] [ INFO  ] AB4EB445DF16 : ACCOUNT_NO      Validate FOSA account
+[ 2016-11-19 17:47:26,354 ] [ INFO  ] AB4EB445DF16 : ACCOUNT_NO      Account does not exist!
+[ 2016-11-19 17:47:26,368 ] [ INFO  ] AB4EB445DF16 : ResponseISO [ 021060000000025000001225472084441821000019ACCOUNT_NO     20LOAN ALREADY CLEARED ]
+[ 2016-11-19 17:47:26,380 ] [ INFO  ] AB4EB445DF16 : ResponseISO [ | Field: (2) Value: (254720844418)| Field: (3) Value: (210000)| Field: (39) Value: (19)| Field: (42) Value: (ACCOUNT_NO     )| Field: (44) Value: (LOAN ALREADY CLEARED) ]
+[ 2016-11-19 17:55:23,779 ] [ INFO  ] Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@67f89fa3: startup date [Sat Nov 19 17:55:23 EAT 2016]; root of context hierarchy
+[ 2016-11-19 17:55:23,916 ] [ INFO  ] Loading XML bean definitions from class path resource [Spring-Quartz.xml]
+[ 2016-11-19 17:55:24,882 ] [ INFO  ] Starting beans in phase 2147483647
+[ 2016-11-19 17:55:24,883 ] [ INFO  ] Starting Quartz Scheduler now
+[ 2016-11-19 17:55:29,161 ] [ INFO  ] Processing login process---> : ISCUST|254720844418
+[ 2016-11-19 17:55:48,280 ] [ INFO  ] Processing code : 210000
+[ 2016-11-19 17:55:48,280 ] [ INFO  ] Process : AccountBalanceInquiry
+[ 2016-11-19 17:55:48,282 ] [ INFO  ] AB40A474BBEF : ReceivedISO [ 0200600000000840000012254720844418210000AB40A474BBEF1               ]
+[ 2016-11-19 17:55:48,291 ] [ INFO  ] AB40A474BBEF : 1               Validate FOSA account
+[ 2016-11-19 17:55:48,308 ] [ INFO  ] AB40A474BBEF : ResponseISO [ 0210600000000A50000012254720844418210000AB40A474BBEF001              041000 ]
+[ 2016-11-19 17:55:48,319 ] [ INFO  ] AB40A474BBEF : ResponseISO [ | Field: (2) Value: (254720844418)| Field: (3) Value: (210000)| Field: (37) Value: (AB40A474BBEF)| Field: (39) Value: (00)| Field: (42) Value: (1              )| Field: (44) Value: (1000) ]
+[ 2016-11-19 17:55:48,374 ] [ INFO  ] Processing code : 300000
+[ 2016-11-19 17:55:48,374 ] [ INFO  ] Process : LoanRepayment
+[ 2016-11-19 17:55:48,375 ] [ INFO  ] LP5E1DED66BB : ReceivedISO [ 0200700000000840000012254720844418300000000000000100LP5E1DED66BBLN33766FE481    ]
+[ 2016-11-19 17:55:48,385 ] [ INFO  ] LP5E1DED66BB : Loan number LN33766FE481   
+[ 2016-11-19 17:55:48,395 ] [ INFO  ] LP5E1DED66BB : Get loan details 
+[ 2016-11-19 17:55:48,458 ] [ INFO  ] LP5E1DED66BB : Record loan repayment 
+[ 2016-11-19 17:55:48,458 ] [ INFO  ] LP5E1DED66BB : Current loan balance: 30200
+[ 2016-11-19 17:55:48,458 ] [ INFO  ] LP5E1DED66BB : Repay amount: 100
+[ 2016-11-19 17:55:48,524 ] [ INFO  ] LP5E1DED66BB : LN33766FE481    Response ISO [ 0210600000000A50000012254720844418300000LP5E1DED66BB00LN33766FE481   0530200 ]
+[ 2016-11-19 17:55:48,532 ] [ INFO  ] LP5E1DED66BB : LN33766FE481    Response ISO [ | Field: (2) Value: (254720844418)| Field: (3) Value: (300000)| Field: (37) Value: (LP5E1DED66BB)| Field: (39) Value: (00)| Field: (42) Value: (LN33766FE481   )| Field: (44) Value: (30200) ]
+[ 2016-11-19 17:56:01,598 ] [ INFO  ] Processing code : 200000
+[ 2016-11-19 17:56:01,598 ] [ INFO  ] Process : LoanBalanceInquiry
+[ 2016-11-19 17:56:01,598 ] [ INFO  ] LB3912AA00A0 : ReceivedISO [ 0200600000000840000012254720844418200000LB3912AA00A0LN33766FE481    ]
+[ 2016-11-19 17:56:01,608 ] [ INFO  ] LB3912AA00A0 : LN33766FE481    Validate loan
+[ 2016-11-19 17:56:01,649 ] [ INFO  ] LB3912AA00A0 : ResponseISO [ 0210620000000A500000122547208444182000002016-12-19LB3912AA00A000LN33766FE481   0530100 ]
+[ 2016-11-19 17:56:01,691 ] [ INFO  ] LB3912AA00A0 : ResponseISO [ | Field: (2) Value: (254720844418)| Field: (3) Value: (200000)| Field: (7) Value: (2016-12-19)| Field: (37) Value: (LB3912AA00A0)| Field: (39) Value: (00)| Field: (42) Value: (LN33766FE481   )| Field: (44) Value: (30100) ]
+[ 2016-11-19 17:56:21,277 ] [ INFO  ] Processing code : 210000
+[ 2016-11-19 17:56:21,277 ] [ INFO  ] Process : AccountBalanceInquiry
+[ 2016-11-19 17:56:21,278 ] [ INFO  ] AB727E056649 : ReceivedISO [ 0200600000000840000012254720844418210000AB727E0566491               ]
+[ 2016-11-19 17:56:21,285 ] [ INFO  ] AB727E056649 : 1               Validate FOSA account
+[ 2016-11-19 17:56:21,294 ] [ INFO  ] AB727E056649 : ResponseISO [ 0210600000000A50000012254720844418210000AB727E056649001              041000 ]
+[ 2016-11-19 17:56:21,299 ] [ INFO  ] AB727E056649 : ResponseISO [ | Field: (2) Value: (254720844418)| Field: (3) Value: (210000)| Field: (37) Value: (AB727E056649)| Field: (39) Value: (00)| Field: (42) Value: (1              )| Field: (44) Value: (1000) ]
+[ 2016-11-19 17:56:21,335 ] [ INFO  ] Processing code : 300000
+[ 2016-11-19 17:56:21,335 ] [ INFO  ] Process : LoanRepayment
+[ 2016-11-19 17:56:21,335 ] [ INFO  ] LP626E259911 : ReceivedISO [ 0200700000000840000012254720844418300000000000000100LP626E259911LN33766FE481    ]
+[ 2016-11-19 17:56:21,343 ] [ INFO  ] LP626E259911 : Loan number LN33766FE481   
+[ 2016-11-19 17:56:21,367 ] [ INFO  ] LP626E259911 : Get loan details 
+[ 2016-11-19 17:56:21,447 ] [ INFO  ] LP626E259911 : Record loan repayment 
+[ 2016-11-19 17:56:21,447 ] [ INFO  ] LP626E259911 : Current loan balance: 30100
+[ 2016-11-19 17:56:21,447 ] [ INFO  ] LP626E259911 : Repay amount: 100
+[ 2016-11-19 17:56:21,666 ] [ INFO  ] LP626E259911 : LN33766FE481    Response ISO [ 0210600000000A50000012254720844418300000LP626E25991100LN33766FE481   0530100 ]
+[ 2016-11-19 17:56:21,672 ] [ INFO  ] LP626E259911 : LN33766FE481    Response ISO [ | Field: (2) Value: (254720844418)| Field: (3) Value: (300000)| Field: (37) Value: (LP626E259911)| Field: (39) Value: (00)| Field: (42) Value: (LN33766FE481   )| Field: (44) Value: (30100) ]
+[ 2016-11-19 17:56:31,814 ] [ INFO  ] Processing code : 200000
+[ 2016-11-19 17:56:31,814 ] [ INFO  ] Process : LoanBalanceInquiry
+[ 2016-11-19 17:56:31,815 ] [ INFO  ] LB65E964A53A : ReceivedISO [ 0200600000000840000012254720844418200000LB65E964A53ALN33766FE481    ]
+[ 2016-11-19 17:56:31,823 ] [ INFO  ] LB65E964A53A : LN33766FE481    Validate loan
+[ 2016-11-19 17:56:31,882 ] [ INFO  ] LB65E964A53A : ResponseISO [ 0210620000000A500000122547208444182000002016-12-19LB65E964A53A00LN33766FE481   0530000 ]
+[ 2016-11-19 17:56:31,888 ] [ INFO  ] LB65E964A53A : ResponseISO [ | Field: (2) Value: (254720844418)| Field: (3) Value: (200000)| Field: (7) Value: (2016-12-19)| Field: (37) Value: (LB65E964A53A)| Field: (39) Value: (00)| Field: (42) Value: (LN33766FE481   )| Field: (44) Value: (30000) ]
+[ 2016-11-19 21:14:09,425 ] [ INFO  ] Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@67f89fa3: startup date [Sat Nov 19 21:14:09 EAT 2016]; root of context hierarchy
+[ 2016-11-19 21:14:09,518 ] [ INFO  ] Loading XML bean definitions from class path resource [Spring-Quartz.xml]
+[ 2016-11-19 21:14:10,459 ] [ INFO  ] Starting beans in phase 2147483647
+[ 2016-11-19 21:14:10,460 ] [ INFO  ] Starting Quartz Scheduler now
+[ 2016-11-19 21:14:19,208 ] [ INFO  ] Processing login process---> : ISCUST|254720844418
+[ 2016-11-19 21:14:42,832 ] [ INFO  ] Processing code : 210000
+[ 2016-11-19 21:14:42,832 ] [ INFO  ] Process : AccountBalanceInquiry
+[ 2016-11-19 21:14:42,833 ] [ INFO  ] ABFADE511EA8 : ReceivedISO [ 0200600000000840000012254720844418210000ABFADE511EA81               ]
+[ 2016-11-19 21:14:42,840 ] [ INFO  ] ABFADE511EA8 : 1               Validate FOSA account
+[ 2016-11-19 21:14:42,856 ] [ INFO  ] ABFADE511EA8 : ResponseISO [ 0210600000000A50000012254720844418210000ABFADE511EA8001              041000 ]
+[ 2016-11-19 21:14:42,869 ] [ INFO  ] ABFADE511EA8 : ResponseISO [ | Field: (2) Value: (254720844418)| Field: (3) Value: (210000)| Field: (37) Value: (ABFADE511EA8)| Field: (39) Value: (00)| Field: (42) Value: (1              )| Field: (44) Value: (1000) ]
+[ 2016-11-19 21:14:42,882 ] [ INFO  ] Processing code : 300000
+[ 2016-11-19 21:14:42,882 ] [ INFO  ] Process : LoanRepayment
+[ 2016-11-19 21:14:42,883 ] [ INFO  ] LPFFC828EFF5 : ReceivedISO [ 0200700000000840000012254720844418300000000000000100LPFFC828EFF5LN33766FE481    ]
+[ 2016-11-19 21:14:42,902 ] [ FATAL ] LPFFC828EFF5 [ java.lang.NullPointerException ]
+[ 2016-11-19 21:16:14,835 ] [ INFO  ] Processing login process---> : ISCUST|254720844418
+[ 2016-11-19 21:16:33,056 ] [ INFO  ] Processing code : 210000
+[ 2016-11-19 21:16:33,057 ] [ INFO  ] Process : AccountBalanceInquiry
+[ 2016-11-19 21:16:33,057 ] [ INFO  ] AB0C3BD74423 : ReceivedISO [ 0200600000000840000012254720844418210000AB0C3BD744231               ]
+[ 2016-11-19 21:16:33,062 ] [ INFO  ] AB0C3BD74423 : 1               Validate FOSA account
+[ 2016-11-19 21:16:33,072 ] [ INFO  ] AB0C3BD74423 : ResponseISO [ 0210600000000A50000012254720844418210000AB0C3BD74423001              041000 ]
+[ 2016-11-19 21:16:33,081 ] [ INFO  ] AB0C3BD74423 : ResponseISO [ | Field: (2) Value: (254720844418)| Field: (3) Value: (210000)| Field: (37) Value: (AB0C3BD74423)| Field: (39) Value: (00)| Field: (42) Value: (1              )| Field: (44) Value: (1000) ]
+[ 2016-11-19 21:17:54,631 ] [ INFO  ] Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@67f89fa3: startup date [Sat Nov 19 21:17:54 EAT 2016]; root of context hierarchy
+[ 2016-11-19 21:17:54,709 ] [ INFO  ] Loading XML bean definitions from class path resource [Spring-Quartz.xml]
+[ 2016-11-19 21:17:55,587 ] [ INFO  ] Starting beans in phase 2147483647
+[ 2016-11-19 21:17:55,588 ] [ INFO  ] Starting Quartz Scheduler now
+[ 2016-11-19 21:18:08,048 ] [ INFO  ] Processing login process---> : ISCUST|254720844418
+[ 2016-11-19 21:18:35,504 ] [ INFO  ] Processing code : 210000
+[ 2016-11-19 21:18:35,504 ] [ INFO  ] Process : AccountBalanceInquiry
+[ 2016-11-19 21:18:35,505 ] [ INFO  ] AB74BFD7B291 : ReceivedISO [ 0200600000000840000012254720844418210000AB74BFD7B2911               ]
+[ 2016-11-19 21:18:35,511 ] [ INFO  ] AB74BFD7B291 : 1               Validate FOSA account
+[ 2016-11-19 21:18:35,526 ] [ INFO  ] AB74BFD7B291 : ResponseISO [ 0210600000000A50000012254720844418210000AB74BFD7B291001              041000 ]
+[ 2016-11-19 21:18:35,568 ] [ INFO  ] AB74BFD7B291 : ResponseISO [ | Field: (2) Value: (254720844418)| Field: (3) Value: (210000)| Field: (37) Value: (AB74BFD7B291)| Field: (39) Value: (00)| Field: (42) Value: (1              )| Field: (44) Value: (1000) ]
+[ 2016-11-19 21:28:22,997 ] [ INFO  ] Processing login process---> : ISCUST|254720844418
+[ 2016-11-19 21:28:42,175 ] [ INFO  ] Processing code : 210000
+[ 2016-11-19 21:28:42,175 ] [ INFO  ] Process : AccountBalanceInquiry
+[ 2016-11-19 21:28:42,175 ] [ INFO  ] AB6E7C706666 : ReceivedISO [ 0200600000000840000012254720844418210000AB6E7C7066661               ]
+[ 2016-11-19 21:28:42,184 ] [ INFO  ] AB6E7C706666 : 1               Validate FOSA account
+[ 2016-11-19 21:28:42,196 ] [ INFO  ] AB6E7C706666 : ResponseISO [ 0210600000000A50000012254720844418210000AB6E7C706666001              041000 ]
+[ 2016-11-19 21:28:42,203 ] [ INFO  ] AB6E7C706666 : ResponseISO [ | Field: (2) Value: (254720844418)| Field: (3) Value: (210000)| Field: (37) Value: (AB6E7C706666)| Field: (39) Value: (00)| Field: (42) Value: (1              )| Field: (44) Value: (1000) ]
+[ 2016-11-19 21:30:25,580 ] [ INFO  ] Processing login process---> : ISCUST|254720844418
+[ 2016-11-19 21:30:42,101 ] [ INFO  ] Processing code : 210000
+[ 2016-11-19 21:30:42,101 ] [ INFO  ] Process : AccountBalanceInquiry
+[ 2016-11-19 21:30:42,102 ] [ INFO  ] AB170E5AB384 : ReceivedISO [ 0200600000000840000012254720844418210000AB170E5AB3841               ]
+[ 2016-11-19 21:30:42,106 ] [ INFO  ] AB170E5AB384 : 1               Validate FOSA account
+[ 2016-11-19 21:30:42,115 ] [ INFO  ] AB170E5AB384 : ResponseISO [ 0210600000000A50000012254720844418210000AB170E5AB384001              041000 ]
+[ 2016-11-19 21:30:42,121 ] [ INFO  ] AB170E5AB384 : ResponseISO [ | Field: (2) Value: (254720844418)| Field: (3) Value: (210000)| Field: (37) Value: (AB170E5AB384)| Field: (39) Value: (00)| Field: (42) Value: (1              )| Field: (44) Value: (1000) ]
+[ 2016-11-19 21:30:42,160 ] [ INFO  ] Processing code : 300000
+[ 2016-11-19 21:30:42,160 ] [ INFO  ] Process : LoanRepayment
+[ 2016-11-19 21:30:42,161 ] [ INFO  ] LPCF27BAE7E0 : ReceivedISO [ 0200F000000008400000000000000600000012254720844418300000000000000100LPCF27BAE7E0LN33766FE481   011101111111111 ]
+[ 2016-11-19 21:30:42,169 ] [ INFO  ] LPCF27BAE7E0 : Loan number LN33766FE481   
+[ 2016-11-19 21:30:42,169 ] [ INFO  ] LPCF27BAE7E0 : Debit Account 1
+[ 2016-11-19 21:30:42,169 ] [ INFO  ] LPCF27BAE7E0 : Credit Account 1111111111
+[ 2016-11-19 21:30:42,174 ] [ INFO  ] LPCF27BAE7E0 : Get loan details 
+[ 2016-11-19 21:30:42,197 ] [ INFO  ] LPCF27BAE7E0 : Record loan repayment 
+[ 2016-11-19 21:30:42,197 ] [ INFO  ] LPCF27BAE7E0 : Error occurred 
+[ 2016-11-19 21:30:42,260 ] [ INFO  ] LPCF27BAE7E0 : LN33766FE481    Response ISO [ 021060000000025000001225472084441830000012LN33766FE481   11OTHER ERROR ]
+[ 2016-11-19 21:30:42,266 ] [ INFO  ] LPCF27BAE7E0 : LN33766FE481    Response ISO [ | Field: (2) Value: (254720844418)| Field: (3) Value: (300000)| Field: (39) Value: (12)| Field: (42) Value: (LN33766FE481   )| Field: (44) Value: (OTHER ERROR) ]
+[ 2016-11-19 21:32:52,765 ] [ INFO  ] Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@67f89fa3: startup date [Sat Nov 19 21:32:52 EAT 2016]; root of context hierarchy
+[ 2016-11-19 21:32:52,846 ] [ INFO  ] Loading XML bean definitions from class path resource [Spring-Quartz.xml]
+[ 2016-11-19 21:32:53,665 ] [ INFO  ] Starting beans in phase 2147483647
+[ 2016-11-19 21:32:53,665 ] [ INFO  ] Starting Quartz Scheduler now
+[ 2016-11-19 21:33:24,311 ] [ INFO  ] Processing code : 210000
+[ 2016-11-19 21:33:24,311 ] [ INFO  ] Process : AccountBalanceInquiry
+[ 2016-11-19 21:33:24,312 ] [ INFO  ] AB3824D3EC82 : ReceivedISO [ 0200600000000840000012254720844418210000AB3824D3EC821               ]
+[ 2016-11-19 21:33:24,319 ] [ INFO  ] AB3824D3EC82 : 1               Validate FOSA account
+[ 2016-11-19 21:33:24,337 ] [ INFO  ] AB3824D3EC82 : ResponseISO [ 0210600000000A50000012254720844418210000AB3824D3EC82001              041000 ]
+[ 2016-11-19 21:33:24,351 ] [ INFO  ] AB3824D3EC82 : ResponseISO [ | Field: (2) Value: (254720844418)| Field: (3) Value: (210000)| Field: (37) Value: (AB3824D3EC82)| Field: (39) Value: (00)| Field: (42) Value: (1              )| Field: (44) Value: (1000) ]
+[ 2016-11-19 21:33:24,380 ] [ INFO  ] Processing code : 300000
+[ 2016-11-19 21:33:24,380 ] [ INFO  ] Process : LoanRepayment
+[ 2016-11-19 21:33:24,380 ] [ INFO  ] LPA25D988273 : ReceivedISO [ 0200F000000008400000000000000600000012254720844418300000000000000100LPA25D988273LN33766FE481   011101111111111 ]
+[ 2016-11-19 21:33:24,389 ] [ INFO  ] LPA25D988273 : Loan number LN33766FE481   
+[ 2016-11-19 21:33:24,389 ] [ INFO  ] LPA25D988273 : Debit Account 1
+[ 2016-11-19 21:33:24,389 ] [ INFO  ] LPA25D988273 : Credit Account 1111111111
+[ 2016-11-19 21:33:24,394 ] [ INFO  ] LPA25D988273 : Get loan details 
+[ 2016-11-19 21:33:24,410 ] [ INFO  ] LPA25D988273 : Record loan repayment 
+[ 2016-11-19 21:33:24,410 ] [ INFO  ] LPA25D988273 : Error occurred 
+[ 2016-11-19 21:33:24,480 ] [ INFO  ] LPA25D988273 : LN33766FE481    Response ISO [ 021060000000025000001225472084441830000012LN33766FE481   11OTHER ERROR ]
+[ 2016-11-19 21:33:24,490 ] [ INFO  ] LPA25D988273 : LN33766FE481    Response ISO [ | Field: (2) Value: (254720844418)| Field: (3) Value: (300000)| Field: (39) Value: (12)| Field: (42) Value: (LN33766FE481   )| Field: (44) Value: (OTHER ERROR) ]
+[ 2016-11-19 21:34:25,015 ] [ INFO  ] Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@67f89fa3: startup date [Sat Nov 19 21:34:25 EAT 2016]; root of context hierarchy
+[ 2016-11-19 21:34:25,100 ] [ INFO  ] Loading XML bean definitions from class path resource [Spring-Quartz.xml]
+[ 2016-11-19 21:34:25,909 ] [ INFO  ] Starting beans in phase 2147483647
+[ 2016-11-19 21:34:25,909 ] [ INFO  ] Starting Quartz Scheduler now
+[ 2016-11-19 21:34:53,778 ] [ INFO  ] Processing code : 210000
+[ 2016-11-19 21:34:53,778 ] [ INFO  ] Process : AccountBalanceInquiry
+[ 2016-11-19 21:34:53,779 ] [ INFO  ] ABD32E1976D1 : ReceivedISO [ 0200600000000840000012254720844418210000ABD32E1976D11               ]
+[ 2016-11-19 21:34:53,787 ] [ INFO  ] ABD32E1976D1 : 1               Validate FOSA account
+[ 2016-11-19 21:34:53,804 ] [ INFO  ] ABD32E1976D1 : ResponseISO [ 0210600000000A50000012254720844418210000ABD32E1976D1001              041000 ]
+[ 2016-11-19 21:34:53,816 ] [ INFO  ] ABD32E1976D1 : ResponseISO [ | Field: (2) Value: (254720844418)| Field: (3) Value: (210000)| Field: (37) Value: (ABD32E1976D1)| Field: (39) Value: (00)| Field: (42) Value: (1              )| Field: (44) Value: (1000) ]
+[ 2016-11-19 21:34:53,848 ] [ INFO  ] Processing code : 300000
+[ 2016-11-19 21:34:53,848 ] [ INFO  ] Process : LoanRepayment
+[ 2016-11-19 21:34:53,849 ] [ INFO  ] LP1A2ACF0CA8 : ReceivedISO [ 0200F000000008400000000000000600000012254720844418300000000000000100LP1A2ACF0CA8LN33766FE481   011101111111111 ]
+[ 2016-11-19 21:34:53,856 ] [ INFO  ] LP1A2ACF0CA8 : Loan number LN33766FE481   
+[ 2016-11-19 21:34:53,856 ] [ INFO  ] LP1A2ACF0CA8 : Debit Account 1
+[ 2016-11-19 21:34:53,856 ] [ INFO  ] LP1A2ACF0CA8 : Credit Account 1111111111
+[ 2016-11-19 21:34:53,863 ] [ INFO  ] LP1A2ACF0CA8 : Get loan details 
+[ 2016-11-19 21:34:53,910 ] [ INFO  ] LP1A2ACF0CA8 : Record loan repayment 
+[ 2016-11-19 21:34:53,910 ] [ INFO  ] LP1A2ACF0CA8 : Current loan balance: 30000
+[ 2016-11-19 21:34:53,910 ] [ INFO  ] LP1A2ACF0CA8 : Repay amount: 100
+[ 2016-11-19 21:34:53,967 ] [ INFO  ] LP1A2ACF0CA8 : LN33766FE481    Response ISO [ 0210600000000A50000012254720844418300000LP1A2ACF0CA800LN33766FE481   0530000 ]
+[ 2016-11-19 21:34:54,002 ] [ INFO  ] LP1A2ACF0CA8 : LN33766FE481    Response ISO [ | Field: (2) Value: (254720844418)| Field: (3) Value: (300000)| Field: (37) Value: (LP1A2ACF0CA8)| Field: (39) Value: (00)| Field: (42) Value: (LN33766FE481   )| Field: (44) Value: (30000) ]
+[ 2016-11-19 21:36:49,052 ] [ INFO  ] Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@67f89fa3: startup date [Sat Nov 19 21:36:49 EAT 2016]; root of context hierarchy
+[ 2016-11-19 21:36:49,144 ] [ INFO  ] Loading XML bean definitions from class path resource [Spring-Quartz.xml]
+[ 2016-11-19 21:36:50,132 ] [ INFO  ] Starting beans in phase 2147483647
+[ 2016-11-19 21:36:50,133 ] [ INFO  ] Starting Quartz Scheduler now
+[ 2016-11-19 21:37:34,500 ] [ INFO  ] Processing login process---> : ISCUST|254720844418
+[ 2016-11-19 21:37:51,345 ] [ INFO  ] Processing code : 210000
+[ 2016-11-19 21:37:51,345 ] [ INFO  ] Process : AccountBalanceInquiry
+[ 2016-11-19 21:37:51,346 ] [ INFO  ] ABA0A8D61629 : ReceivedISO [ 0200600000000840000012254720844418210000ABA0A8D616291               ]
+[ 2016-11-19 21:37:51,353 ] [ INFO  ] ABA0A8D61629 : 1               Validate FOSA account
+[ 2016-11-19 21:37:51,380 ] [ INFO  ] ABA0A8D61629 : ResponseISO [ 0210600000000A50000012254720844418210000ABA0A8D61629001              041000 ]
+[ 2016-11-19 21:37:51,394 ] [ INFO  ] ABA0A8D61629 : ResponseISO [ | Field: (2) Value: (254720844418)| Field: (3) Value: (210000)| Field: (37) Value: (ABA0A8D61629)| Field: (39) Value: (00)| Field: (42) Value: (1              )| Field: (44) Value: (1000) ]
+[ 2016-11-19 21:37:51,409 ] [ INFO  ] Processing code : 300000
+[ 2016-11-19 21:37:51,409 ] [ INFO  ] Process : LoanRepayment
+[ 2016-11-19 21:37:51,410 ] [ INFO  ] LP5AA9DE2596 : ReceivedISO [ 0200F000000008400000000000000600000012254720844418300000000000000100LP5AA9DE2596LN33766FE481   011101111111111 ]
+[ 2016-11-19 21:37:51,416 ] [ INFO  ] LP5AA9DE2596 : Loan number LN33766FE481   
+[ 2016-11-19 21:37:51,417 ] [ INFO  ] LP5AA9DE2596 : Debit Account 1
+[ 2016-11-19 21:37:51,417 ] [ INFO  ] LP5AA9DE2596 : Credit Account 1111111111
+[ 2016-11-19 21:37:51,421 ] [ INFO  ] LP5AA9DE2596 : Get loan details 
+[ 2016-11-19 21:37:51,469 ] [ INFO  ] LP5AA9DE2596 : Record loan repayment 
+[ 2016-11-19 21:37:51,469 ] [ INFO  ] LP5AA9DE2596 : Current loan balance: 29900
+[ 2016-11-19 21:37:51,470 ] [ INFO  ] LP5AA9DE2596 : Repay amount: 100
+[ 2016-11-19 21:37:51,522 ] [ INFO  ] LP5AA9DE2596 : LN33766FE481    Response ISO [ 0210600000000A50000012254720844418300000LP5AA9DE259600LN33766FE481   0529900 ]
+[ 2016-11-19 21:37:51,530 ] [ INFO  ] LP5AA9DE2596 : LN33766FE481    Response ISO [ | Field: (2) Value: (254720844418)| Field: (3) Value: (300000)| Field: (37) Value: (LP5AA9DE2596)| Field: (39) Value: (00)| Field: (42) Value: (LN33766FE481   )| Field: (44) Value: (29900) ]
+[ 2016-11-19 21:40:49,383 ] [ INFO  ] Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@67f89fa3: startup date [Sat Nov 19 21:40:49 EAT 2016]; root of context hierarchy
+[ 2016-11-19 21:40:49,457 ] [ INFO  ] Loading XML bean definitions from class path resource [Spring-Quartz.xml]
+[ 2016-11-19 21:40:50,237 ] [ INFO  ] Starting beans in phase 2147483647
+[ 2016-11-19 21:40:50,238 ] [ INFO  ] Starting Quartz Scheduler now
+[ 2016-11-19 21:41:44,533 ] [ INFO  ] Processing code : 210000
+[ 2016-11-19 21:41:44,533 ] [ INFO  ] Process : AccountBalanceInquiry
+[ 2016-11-19 21:41:44,534 ] [ INFO  ] ABCE48B60E42 : ReceivedISO [ 0200600000000840000012254720844418210000ABCE48B60E421               ]
+[ 2016-11-19 21:41:44,540 ] [ INFO  ] ABCE48B60E42 : 1               Validate FOSA account
+[ 2016-11-19 21:41:44,555 ] [ INFO  ] ABCE48B60E42 : ResponseISO [ 0210600000000A50000012254720844418210000ABCE48B60E42001              041000 ]
+[ 2016-11-19 21:41:44,577 ] [ INFO  ] ABCE48B60E42 : ResponseISO [ | Field: (2) Value: (254720844418)| Field: (3) Value: (210000)| Field: (37) Value: (ABCE48B60E42)| Field: (39) Value: (00)| Field: (42) Value: (1              )| Field: (44) Value: (1000) ]
+[ 2016-11-19 21:41:44,590 ] [ INFO  ] Processing code : 300000
+[ 2016-11-19 21:41:44,590 ] [ INFO  ] Process : LoanRepayment
+[ 2016-11-19 21:41:44,590 ] [ INFO  ] LPA8A57DC3D2 : ReceivedISO [ 0200F000000008400000000000000600000012254720844418300000000000000100LPA8A57DC3D2LN33766FE481   011101111111111 ]
+[ 2016-11-19 21:41:44,596 ] [ INFO  ] LPA8A57DC3D2 : Loan number LN33766FE481   
+[ 2016-11-19 21:41:44,596 ] [ INFO  ] LPA8A57DC3D2 : Debit Account 1
+[ 2016-11-19 21:41:44,596 ] [ INFO  ] LPA8A57DC3D2 : Credit Account 1111111111
+[ 2016-11-19 21:41:44,602 ] [ INFO  ] LPA8A57DC3D2 : Get loan details 
+[ 2016-11-19 21:41:44,676 ] [ INFO  ] LPA8A57DC3D2 : Record loan repayment 
+[ 2016-11-19 21:41:44,676 ] [ INFO  ] LPA8A57DC3D2 : Current loan balance: 29800
+[ 2016-11-19 21:41:44,676 ] [ INFO  ] LPA8A57DC3D2 : Repay amount: 100
+[ 2016-11-19 21:41:44,750 ] [ INFO  ] LPA8A57DC3D2 : LN33766FE481    Response ISO [ 0210600000000A50000012254720844418300000LPA8A57DC3D200LN33766FE481   0529800 ]
+[ 2016-11-19 21:41:44,766 ] [ INFO  ] LPA8A57DC3D2 : LN33766FE481    Response ISO [ | Field: (2) Value: (254720844418)| Field: (3) Value: (300000)| Field: (37) Value: (LPA8A57DC3D2)| Field: (39) Value: (00)| Field: (42) Value: (LN33766FE481   )| Field: (44) Value: (29800) ]
+[ 2016-11-19 22:33:30,636 ] [ INFO  ] Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@4ac68d3e: startup date [Sat Nov 19 22:33:30 EAT 2016]; root of context hierarchy
+[ 2016-11-19 22:33:30,717 ] [ INFO  ] Loading XML bean definitions from class path resource [Spring-Quartz.xml]
+[ 2016-11-19 22:33:31,680 ] [ INFO  ] Starting beans in phase 2147483647
+[ 2016-11-19 22:33:31,680 ] [ INFO  ] Starting Quartz Scheduler now
+[ 2016-11-19 22:33:39,232 ] [ INFO  ] Processing login process---> : ISCUST|254720844418
+[ 2016-11-19 22:33:59,895 ] [ INFO  ] Processing code : 210000
+[ 2016-11-19 22:33:59,895 ] [ INFO  ] Process : AccountBalanceInquiry
+[ 2016-11-19 22:33:59,896 ] [ INFO  ] AB19BE3ECCB4 : ReceivedISO [ 0200600000000840000012254720844418210000AB19BE3ECCB41               ]
+[ 2016-11-19 22:33:59,902 ] [ INFO  ] AB19BE3ECCB4 : 1               Validate FOSA account
+[ 2016-11-19 22:33:59,922 ] [ INFO  ] AB19BE3ECCB4 : ResponseISO [ 0210600000000A50000012254720844418210000AB19BE3ECCB4001              041000 ]
+[ 2016-11-19 22:33:59,933 ] [ INFO  ] AB19BE3ECCB4 : ResponseISO [ | Field: (2) Value: (254720844418)| Field: (3) Value: (210000)| Field: (37) Value: (AB19BE3ECCB4)| Field: (39) Value: (00)| Field: (42) Value: (1              )| Field: (44) Value: (1000) ]
+[ 2016-11-19 22:33:59,952 ] [ INFO  ] Processing code : 300000
+[ 2016-11-19 22:33:59,952 ] [ INFO  ] Process : LoanRepayment
+[ 2016-11-19 22:33:59,952 ] [ INFO  ] LP3DF7CD2CDB : ReceivedISO [ 0200F000000008400000000000000600000012254720844418300000000000000100LP3DF7CD2CDBLN33766FE481   011101111111111 ]
+[ 2016-11-19 22:33:59,958 ] [ INFO  ] LP3DF7CD2CDB : Loan number LN33766FE481   
+[ 2016-11-19 22:33:59,958 ] [ INFO  ] LP3DF7CD2CDB : Debit Account 1
+[ 2016-11-19 22:33:59,958 ] [ INFO  ] LP3DF7CD2CDB : Credit Account 1111111111
+[ 2016-11-19 22:33:59,963 ] [ INFO  ] LP3DF7CD2CDB : Get loan details 
+[ 2016-11-19 22:34:00,043 ] [ INFO  ] LP3DF7CD2CDB : Record loan repayment 
+[ 2016-11-19 22:34:00,043 ] [ INFO  ] LP3DF7CD2CDB : Current loan balance: 29700
+[ 2016-11-19 22:34:00,043 ] [ INFO  ] LP3DF7CD2CDB : Repay amount: 100
+[ 2016-11-19 22:34:00,083 ] [ INFO  ] LP3DF7CD2CDB : LN33766FE481    Response ISO [ 0210600000000A50000012254720844418300000LP3DF7CD2CDB00LN33766FE481   0529700 ]
+[ 2016-11-19 22:34:00,109 ] [ INFO  ] LP3DF7CD2CDB : LN33766FE481    Response ISO [ | Field: (2) Value: (254720844418)| Field: (3) Value: (300000)| Field: (37) Value: (LP3DF7CD2CDB)| Field: (39) Value: (00)| Field: (42) Value: (LN33766FE481   )| Field: (44) Value: (29700) ]
+[ 2016-11-19 22:36:18,412 ] [ INFO  ] Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@67f89fa3: startup date [Sat Nov 19 22:36:18 EAT 2016]; root of context hierarchy
+[ 2016-11-19 22:36:18,532 ] [ INFO  ] Loading XML bean definitions from class path resource [Spring-Quartz.xml]
+[ 2016-11-19 22:36:19,306 ] [ INFO  ] Starting beans in phase 2147483647
+[ 2016-11-19 22:36:19,307 ] [ INFO  ] Starting Quartz Scheduler now
+[ 2016-11-19 22:37:17,642 ] [ INFO  ] Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@67f89fa3: startup date [Sat Nov 19 22:37:17 EAT 2016]; root of context hierarchy
+[ 2016-11-19 22:37:17,747 ] [ INFO  ] Loading XML bean definitions from class path resource [Spring-Quartz.xml]
+[ 2016-11-19 22:37:18,616 ] [ INFO  ] Starting beans in phase 2147483647
+[ 2016-11-19 22:37:18,616 ] [ INFO  ] Starting Quartz Scheduler now
+[ 2016-11-19 22:37:55,515 ] [ INFO  ] Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@67f89fa3: startup date [Sat Nov 19 22:37:55 EAT 2016]; root of context hierarchy
+[ 2016-11-19 22:37:55,602 ] [ INFO  ] Loading XML bean definitions from class path resource [Spring-Quartz.xml]
+[ 2016-11-19 22:37:56,364 ] [ INFO  ] Starting beans in phase 2147483647
+[ 2016-11-19 22:37:56,365 ] [ INFO  ] Starting Quartz Scheduler now
+[ 2016-11-19 22:52:14,772 ] [ INFO  ] Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@67f89fa3: startup date [Sat Nov 19 22:52:14 EAT 2016]; root of context hierarchy
+[ 2016-11-19 22:52:14,884 ] [ INFO  ] Loading XML bean definitions from class path resource [Spring-Quartz.xml]
+[ 2016-11-19 22:52:15,694 ] [ INFO  ] Starting beans in phase 2147483647
+[ 2016-11-19 22:52:15,694 ] [ INFO  ] Starting Quartz Scheduler now
+[ 2016-11-19 22:52:23,140 ] [ INFO  ] Processing login process---> : ISCUST|254720844418
+[ 2016-11-19 22:52:40,294 ] [ INFO  ] Processing code : 210000
+[ 2016-11-19 22:52:40,294 ] [ INFO  ] Process : AccountBalanceInquiry
+[ 2016-11-19 22:52:40,295 ] [ INFO  ] AB0A127B07FE : ReceivedISO [ 0200600000000840000012254720844418210000AB0A127B07FE1               ]
+[ 2016-11-19 22:52:40,302 ] [ INFO  ] AB0A127B07FE : 1               Validate FOSA account
+[ 2016-11-19 22:52:40,328 ] [ INFO  ] AB0A127B07FE : ResponseISO [ 0210600000000A50000012254720844418210000AB0A127B07FE001              03900 ]
+[ 2016-11-19 22:52:40,338 ] [ INFO  ] AB0A127B07FE : ResponseISO [ | Field: (2) Value: (254720844418)| Field: (3) Value: (210000)| Field: (37) Value: (AB0A127B07FE)| Field: (39) Value: (00)| Field: (42) Value: (1              )| Field: (44) Value: (900) ]
+[ 2016-11-19 22:52:40,355 ] [ INFO  ] Processing code : 300000
+[ 2016-11-19 22:52:40,355 ] [ INFO  ] Process : LoanRepayment
+[ 2016-11-19 22:52:40,355 ] [ INFO  ] LPD399FEFFA4 : ReceivedISO [ 0200F000000008400000000000000600000012254720844418300000000000000100LPD399FEFFA4LN33766FE481   011101111111111 ]
+[ 2016-11-19 22:52:40,362 ] [ INFO  ] LPD399FEFFA4 : Loan number LN33766FE481   
+[ 2016-11-19 22:52:40,362 ] [ INFO  ] LPD399FEFFA4 : Debit Account 1
+[ 2016-11-19 22:52:40,362 ] [ INFO  ] LPD399FEFFA4 : Credit Account 1111111111
+[ 2016-11-19 22:52:40,367 ] [ INFO  ] LPD399FEFFA4 : Get loan details 
+[ 2016-11-19 22:52:40,445 ] [ INFO  ] LPD399FEFFA4 : Record loan repayment 
+[ 2016-11-19 22:52:40,445 ] [ INFO  ] LPD399FEFFA4 : Current loan balance: 29600
+[ 2016-11-19 22:52:40,445 ] [ INFO  ] LPD399FEFFA4 : Repay amount: 100
+[ 2016-11-19 22:52:40,511 ] [ INFO  ] LPD399FEFFA4 : LN33766FE481    Response ISO [ 0210600000000A50000012254720844418300000LPD399FEFFA400LN33766FE481   0529600 ]
+[ 2016-11-19 22:52:40,520 ] [ INFO  ] LPD399FEFFA4 : LN33766FE481    Response ISO [ | Field: (2) Value: (254720844418)| Field: (3) Value: (300000)| Field: (37) Value: (LPD399FEFFA4)| Field: (39) Value: (00)| Field: (42) Value: (LN33766FE481   )| Field: (44) Value: (29600) ]
+[ 2016-11-19 22:55:24,740 ] [ INFO  ] Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@67f89fa3: startup date [Sat Nov 19 22:55:24 EAT 2016]; root of context hierarchy
+[ 2016-11-19 22:55:24,823 ] [ INFO  ] Loading XML bean definitions from class path resource [Spring-Quartz.xml]
+[ 2016-11-19 22:55:25,651 ] [ INFO  ] Starting beans in phase 2147483647
+[ 2016-11-19 22:55:25,655 ] [ INFO  ] Starting Quartz Scheduler now
+[ 2016-11-19 22:58:33,515 ] [ INFO  ] Processing login process---> : ISCUST|254720844418
+[ 2016-11-19 22:58:52,812 ] [ INFO  ] Processing code : 400000
+[ 2016-11-19 22:58:52,812 ] [ INFO  ] Process : LoanApplication
+[ 2016-11-19 22:58:52,813 ] [ INFO  ] LRC67EDE00A5 : ReceivedISO [ 0200708040000800000012254720844418400000000000020000000000010001LRC67EDE00A5 ]
+[ 2016-11-19 22:58:52,826 ] [ INFO  ] LRC67EDE00A5 : CRB Status OK
+[ 2016-11-19 22:58:52,830 ] [ INFO  ] LRC67EDE00A5 : Check customer loan limits
+[ 2016-11-19 22:58:52,929 ] [ INFO  ] LRC67EDE00A5 : ResponseISO [ 0210600000000A10000012254720844418400000LRC67EDE00A50012LNFC4182F7E4 ]
+[ 2016-11-19 22:58:52,940 ] [ INFO  ] LRC67EDE00A5 : ResponseISO [ | Field: (2) Value: (254720844418)| Field: (3) Value: (400000)| Field: (37) Value: (LRC67EDE00A5)| Field: (39) Value: (00)| Field: (44) Value: (LNFC4182F7E4) ]
+[ 2016-11-19 23:01:01,667 ] [ INFO  ] Processing login process---> : ISCUST|254720844418
+[ 2016-11-19 23:01:35,890 ] [ INFO  ] Processing code : 210000
+[ 2016-11-19 23:01:35,890 ] [ INFO  ] Process : AccountBalanceInquiry
+[ 2016-11-19 23:01:35,891 ] [ INFO  ] ABB61F4A04B4 : ReceivedISO [ 0200600000000840000012254720844418210000ABB61F4A04B41               ]
+[ 2016-11-19 23:01:35,896 ] [ INFO  ] ABB61F4A04B4 : 1               Validate FOSA account
+[ 2016-11-19 23:01:35,909 ] [ INFO  ] ABB61F4A04B4 : ResponseISO [ 0210600000000A50000012254720844418210000ABB61F4A04B4001              0510000 ]
+[ 2016-11-19 23:01:35,918 ] [ INFO  ] ABB61F4A04B4 : ResponseISO [ | Field: (2) Value: (254720844418)| Field: (3) Value: (210000)| Field: (37) Value: (ABB61F4A04B4)| Field: (39) Value: (00)| Field: (42) Value: (1              )| Field: (44) Value: (10000) ]
+[ 2016-11-19 23:01:35,942 ] [ INFO  ] Processing code : 300000
+[ 2016-11-19 23:01:35,942 ] [ INFO  ] Process : LoanRepayment
+[ 2016-11-19 23:01:35,942 ] [ INFO  ] LP4BC1639145 : ReceivedISO [ 0200F000000008400000000000000600000012254720844418300000000000000100LP4BC1639145LNFC4182F7E4   011101111111111 ]
+[ 2016-11-19 23:01:35,948 ] [ INFO  ] LP4BC1639145 : Loan number LNFC4182F7E4   
+[ 2016-11-19 23:01:35,948 ] [ INFO  ] LP4BC1639145 : Debit Account 1
+[ 2016-11-19 23:01:35,948 ] [ INFO  ] LP4BC1639145 : Credit Account 1111111111
+[ 2016-11-19 23:01:36,002 ] [ INFO  ] LP4BC1639145 : Get loan details 
+[ 2016-11-19 23:01:36,071 ] [ INFO  ] LP4BC1639145 : Record loan repayment 
+[ 2016-11-19 23:01:36,071 ] [ INFO  ] LP4BC1639145 : Current loan balance: 20200
+[ 2016-11-19 23:01:36,071 ] [ INFO  ] LP4BC1639145 : Repay amount: 100
+[ 2016-11-19 23:01:36,127 ] [ INFO  ] LP4BC1639145 : LNFC4182F7E4    Response ISO [ 0210600000000A50000012254720844418300000LP4BC163914500LNFC4182F7E4   0520200 ]
+[ 2016-11-19 23:01:36,136 ] [ INFO  ] LP4BC1639145 : LNFC4182F7E4    Response ISO [ | Field: (2) Value: (254720844418)| Field: (3) Value: (300000)| Field: (37) Value: (LP4BC1639145)| Field: (39) Value: (00)| Field: (42) Value: (LNFC4182F7E4   )| Field: (44) Value: (20200) ]
+[ 2016-11-19 23:03:08,288 ] [ INFO  ] Processing code : 200000
+[ 2016-11-19 23:03:08,288 ] [ INFO  ] Process : LoanBalanceInquiry
+[ 2016-11-19 23:03:08,288 ] [ INFO  ] LB3AE192FC38 : ReceivedISO [ 0200600000000840000012254720844418200000LB3AE192FC38LNFC4182F7E4    ]
+[ 2016-11-19 23:03:08,294 ] [ INFO  ] LB3AE192FC38 : LNFC4182F7E4    Validate loan
+[ 2016-11-19 23:03:08,370 ] [ INFO  ] LB3AE192FC38 : ResponseISO [ 0210620000000A500000122547208444182000002016-12-19LB3AE192FC3800LNFC4182F7E4   0520100 ]
+[ 2016-11-19 23:03:08,374 ] [ INFO  ] LB3AE192FC38 : ResponseISO [ | Field: (2) Value: (254720844418)| Field: (3) Value: (200000)| Field: (7) Value: (2016-12-19)| Field: (37) Value: (LB3AE192FC38)| Field: (39) Value: (00)| Field: (42) Value: (LNFC4182F7E4   )| Field: (44) Value: (20100) ]
+[ 2016-11-19 23:03:18,847 ] [ INFO  ] Processing login process---> : ISCUST|254720844418
+[ 2016-11-19 23:03:31,205 ] [ INFO  ] Processing code : 200000
+[ 2016-11-19 23:03:31,205 ] [ INFO  ] Process : LoanBalanceInquiry
+[ 2016-11-19 23:03:31,205 ] [ INFO  ] LB8F675A1A56 : ReceivedISO [ 0200600000000840000012254720844418200000LB8F675A1A56LNFC4182F7E4    ]
+[ 2016-11-19 23:03:31,211 ] [ INFO  ] LB8F675A1A56 : LNFC4182F7E4    Validate loan
+[ 2016-11-19 23:03:31,333 ] [ INFO  ] LB8F675A1A56 : ResponseISO [ 0210620000000A500000122547208444182000002016-12-19LB8F675A1A5600LNFC4182F7E4   0520100 ]
+[ 2016-11-19 23:03:31,337 ] [ INFO  ] LB8F675A1A56 : ResponseISO [ | Field: (2) Value: (254720844418)| Field: (3) Value: (200000)| Field: (7) Value: (2016-12-19)| Field: (37) Value: (LB8F675A1A56)| Field: (39) Value: (00)| Field: (42) Value: (LNFC4182F7E4   )| Field: (44) Value: (20100) ]
+[ 2016-11-19 23:05:00,200 ] [ INFO  ] Processing code : 210000
+[ 2016-11-19 23:05:00,200 ] [ INFO  ] Process : AccountBalanceInquiry
+[ 2016-11-19 23:05:00,200 ] [ INFO  ] AB20B227EFB9 : ReceivedISO [ 0200600000000840000012254720844418210000AB20B227EFB91               ]
+[ 2016-11-19 23:05:00,205 ] [ INFO  ] AB20B227EFB9 : 1               Validate FOSA account
+[ 2016-11-19 23:05:00,214 ] [ INFO  ] AB20B227EFB9 : ResponseISO [ 0210600000000A50000012254720844418210000AB20B227EFB9001              049900 ]
+[ 2016-11-19 23:05:00,220 ] [ INFO  ] AB20B227EFB9 : ResponseISO [ | Field: (2) Value: (254720844418)| Field: (3) Value: (210000)| Field: (37) Value: (AB20B227EFB9)| Field: (39) Value: (00)| Field: (42) Value: (1              )| Field: (44) Value: (9900) ]
+[ 2016-11-19 23:05:00,235 ] [ INFO  ] Processing code : 300000
+[ 2016-11-19 23:05:00,235 ] [ INFO  ] Process : LoanRepayment
+[ 2016-11-19 23:05:00,235 ] [ INFO  ] LPB5A5322FD5 : ReceivedISO [ 0200F000000008400000000000000600000012254720844418300000000000000100LPB5A5322FD5LNFC4182F7E4   011101111111111 ]
+[ 2016-11-19 23:05:00,241 ] [ INFO  ] LPB5A5322FD5 : Loan number LNFC4182F7E4   
+[ 2016-11-19 23:05:00,241 ] [ INFO  ] LPB5A5322FD5 : Debit Account 1
+[ 2016-11-19 23:05:00,241 ] [ INFO  ] LPB5A5322FD5 : Credit Account 1111111111
+[ 2016-11-19 23:05:00,244 ] [ INFO  ] LPB5A5322FD5 : Get loan details 
+[ 2016-11-19 23:05:00,305 ] [ INFO  ] LPB5A5322FD5 : Record loan repayment 
+[ 2016-11-19 23:05:00,305 ] [ INFO  ] LPB5A5322FD5 : Current loan balance: 20100
+[ 2016-11-19 23:05:00,306 ] [ INFO  ] LPB5A5322FD5 : Repay amount: 100
+[ 2016-11-19 23:05:00,360 ] [ INFO  ] LPB5A5322FD5 : LNFC4182F7E4    Response ISO [ 0210600000000A50000012254720844418300000LPB5A5322FD500LNFC4182F7E4   0520100 ]
+[ 2016-11-19 23:05:00,365 ] [ INFO  ] LPB5A5322FD5 : LNFC4182F7E4    Response ISO [ | Field: (2) Value: (254720844418)| Field: (3) Value: (300000)| Field: (37) Value: (LPB5A5322FD5)| Field: (39) Value: (00)| Field: (42) Value: (LNFC4182F7E4   )| Field: (44) Value: (20100) ]
+[ 2016-11-19 23:05:10,707 ] [ INFO  ] Processing code : 200000
+[ 2016-11-19 23:05:10,708 ] [ INFO  ] Process : LoanBalanceInquiry
+[ 2016-11-19 23:05:10,708 ] [ INFO  ] LBB8D680AC46 : ReceivedISO [ 0200600000000840000012254720844418200000LBB8D680AC46LNFC4182F7E4    ]
+[ 2016-11-19 23:05:10,712 ] [ INFO  ] LBB8D680AC46 : LNFC4182F7E4    Validate loan
+[ 2016-11-19 23:05:10,824 ] [ INFO  ] LBB8D680AC46 : ResponseISO [ 0210620000000A500000122547208444182000002016-12-19LBB8D680AC4600LNFC4182F7E4   0520000 ]
+[ 2016-11-19 23:05:10,830 ] [ INFO  ] LBB8D680AC46 : ResponseISO [ | Field: (2) Value: (254720844418)| Field: (3) Value: (200000)| Field: (7) Value: (2016-12-19)| Field: (37) Value: (LBB8D680AC46)| Field: (39) Value: (00)| Field: (42) Value: (LNFC4182F7E4   )| Field: (44) Value: (20000) ]

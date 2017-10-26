@@ -1,0 +1,4 @@
+[ 2016-06-11 18:05:17,926 ] [ INFO  ] Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@136432db: startup date [Sat Jun 11 18:05:17 EAT 2016]; root of context hierarchy
+[ 2016-06-11 18:05:18,116 ] [ INFO  ] Loading XML bean definitions from class path resource [Spring-Quartz.xml]
+[ 2016-06-11 18:05:19,126 ] [ INFO  ] Starting beans in phase 2147483647
+[ 2016-06-11 18:05:19,127 ] [ INFO  ] Starting Quartz Scheduler now

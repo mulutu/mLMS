@@ -1,0 +1,24 @@
+[ 2016-12-12 00:14:03,888 ] [ INFO  ] Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@67f89fa3: startup date [Mon Dec 12 00:14:03 EAT 2016]; root of context hierarchy
+[ 2016-12-12 00:14:03,976 ] [ INFO  ] Loading XML bean definitions from class path resource [Spring-Quartz.xml]
+[ 2016-12-12 00:14:04,797 ] [ INFO  ] Starting beans in phase 2147483647
+[ 2016-12-12 00:14:04,797 ] [ INFO  ] Starting Quartz Scheduler now
+[ 2016-12-12 00:14:16,111 ] [ INFO  ] Processing login process---> : ISCUST|254720844418
+[ 2016-12-12 00:14:31,513 ] [ INFO  ] Processing code : 400000
+[ 2016-12-12 00:14:31,513 ] [ INFO  ] Process : LoanApplication
+[ 2016-12-12 00:14:31,514 ] [ INFO  ] LR524D917A53 : ReceivedISO [ 0200708040000800000012254720844418400000000000020000000000010001LR524D917A53 ]
+[ 2016-12-12 00:14:31,525 ] [ INFO  ] LR524D917A53 : CRB Status OK
+[ 2016-12-12 00:14:31,528 ] [ INFO  ] LR524D917A53 : Check customer loan limits
+[ 2016-12-12 00:14:31,715 ] [ INFO  ] LR524D917A53 : ResponseISO [ 0210600000000A10000012254720844418400000LR524D917A530012LN70C9BC1131 ]
+[ 2016-12-12 00:14:31,741 ] [ INFO  ] LR524D917A53 : ResponseISO [ | Field: (2) Value: (254720844418)| Field: (3) Value: (400000)| Field: (37) Value: (LR524D917A53)| Field: (39) Value: (00)| Field: (44) Value: (LN70C9BC1131) ]
+[ 2016-12-12 00:18:56,992 ] [ INFO  ] Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@67f89fa3: startup date [Mon Dec 12 00:18:56 EAT 2016]; root of context hierarchy
+[ 2016-12-12 00:18:57,065 ] [ INFO  ] Loading XML bean definitions from class path resource [Spring-Quartz.xml]
+[ 2016-12-12 00:18:57,895 ] [ INFO  ] Starting beans in phase 2147483647
+[ 2016-12-12 00:18:57,895 ] [ INFO  ] Starting Quartz Scheduler now
+[ 2016-12-12 00:19:42,184 ] [ INFO  ] Processing login process---> : ISCUST|254720844418
+[ 2016-12-12 00:19:57,383 ] [ INFO  ] Processing code : 400000
+[ 2016-12-12 00:19:57,383 ] [ INFO  ] Process : LoanApplication
+[ 2016-12-12 00:19:57,384 ] [ INFO  ] LRE8FE456B52 : ReceivedISO [ 0200708040000800000012254720844418400000000000020000000000010001LRE8FE456B52 ]
+[ 2016-12-12 00:19:57,540 ] [ INFO  ] LRE8FE456B52 : CRB Status OK
+[ 2016-12-12 00:19:57,547 ] [ INFO  ] LRE8FE456B52 : Check customer loan limits
+[ 2016-12-12 00:19:57,939 ] [ INFO  ] LRE8FE456B52 : ResponseISO [ 0210600000000A10000012254720844418400000LRE8FE456B520012LNCEC1CA2E0C ]
+[ 2016-12-12 00:19:57,947 ] [ INFO  ] LRE8FE456B52 : ResponseISO [ | Field: (2) Value: (254720844418)| Field: (3) Value: (400000)| Field: (37) Value: (LRE8FE456B52)| Field: (39) Value: (00)| Field: (44) Value: (LNCEC1CA2E0C) ]

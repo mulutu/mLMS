@@ -1,0 +1,43 @@
+[ 2016-11-23 22:46:42,921 ] [ INFO  ] Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@67f89fa3: startup date [Wed Nov 23 22:46:42 EAT 2016]; root of context hierarchy
+[ 2016-11-23 22:46:43,058 ] [ INFO  ] Loading XML bean definitions from class path resource [Spring-Quartz.xml]
+[ 2016-11-23 22:46:43,815 ] [ INFO  ] Starting beans in phase 2147483647
+[ 2016-11-23 22:46:43,815 ] [ INFO  ] Starting Quartz Scheduler now
+[ 2016-11-23 22:47:27,395 ] [ INFO  ] Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@4ac68d3e: startup date [Wed Nov 23 22:47:27 EAT 2016]; root of context hierarchy
+[ 2016-11-23 22:47:27,652 ] [ INFO  ] Loading XML bean definitions from class path resource [Spring-Quartz.xml]
+[ 2016-11-23 22:47:28,485 ] [ INFO  ] Starting beans in phase 2147483647
+[ 2016-11-23 22:47:28,485 ] [ INFO  ] Starting Quartz Scheduler now
+[ 2016-11-23 22:48:35,885 ] [ INFO  ] Processing login process---> : ISCUST|254720844418
+[ 2016-11-23 22:48:57,344 ] [ INFO  ] Processing code : 400000
+[ 2016-11-23 22:48:57,344 ] [ INFO  ] Process : LoanApplication
+[ 2016-11-23 22:48:57,374 ] [ INFO  ] LR66F6F1EFD1 : ReceivedISO [ 0200708040000800000012254720844418400000000000020000000000010001LR66F6F1EFD1 ]
+[ 2016-11-23 22:48:57,410 ] [ INFO  ] LR66F6F1EFD1 : CRB Status OK
+[ 2016-11-23 22:48:57,413 ] [ INFO  ] LR66F6F1EFD1 : Check customer loan limits
+[ 2016-11-23 22:48:57,528 ] [ INFO  ] LR66F6F1EFD1 : ResponseISO [ 0210600000000A10000012254720844418400000LR66F6F1EFD10012LN2D13C52EF9 ]
+[ 2016-11-23 22:48:57,550 ] [ INFO  ] LR66F6F1EFD1 : ResponseISO [ | Field: (2) Value: (254720844418)| Field: (3) Value: (400000)| Field: (37) Value: (LR66F6F1EFD1)| Field: (39) Value: (00)| Field: (44) Value: (LN2D13C52EF9) ]
+[ 2016-11-23 22:51:07,812 ] [ INFO  ] Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@67f89fa3: startup date [Wed Nov 23 22:51:07 EAT 2016]; root of context hierarchy
+[ 2016-11-23 22:51:07,887 ] [ INFO  ] Loading XML bean definitions from class path resource [Spring-Quartz.xml]
+[ 2016-11-23 22:51:08,636 ] [ INFO  ] Starting beans in phase 2147483647
+[ 2016-11-23 22:51:08,636 ] [ INFO  ] Starting Quartz Scheduler now
+[ 2016-11-23 22:57:54,714 ] [ INFO  ] Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@67f89fa3: startup date [Wed Nov 23 22:57:54 EAT 2016]; root of context hierarchy
+[ 2016-11-23 22:57:54,808 ] [ INFO  ] Loading XML bean definitions from class path resource [Spring-Quartz.xml]
+[ 2016-11-23 22:57:55,731 ] [ INFO  ] Starting beans in phase 2147483647
+[ 2016-11-23 22:57:55,731 ] [ INFO  ] Starting Quartz Scheduler now
+[ 2016-11-23 22:58:18,220 ] [ INFO  ] Processing code : 400000
+[ 2016-11-23 22:58:18,220 ] [ INFO  ] Process : LoanApplication
+[ 2016-11-23 22:58:18,221 ] [ INFO  ] LR59FFD3A62F : ReceivedISO [ 0200708040000800000012254720844418400000000000020000000000010001LR59FFD3A62F ]
+[ 2016-11-23 22:58:18,283 ] [ INFO  ] LR59FFD3A62F : CRB Status OK
+[ 2016-11-23 22:58:18,298 ] [ INFO  ] LR59FFD3A62F : Check customer loan limits
+[ 2016-11-23 22:58:18,467 ] [ INFO  ] LR59FFD3A62F : ResponseISO [ 0210600000000A10000012254720844418400000LR59FFD3A62F0012LN12677D5E97 ]
+[ 2016-11-23 22:58:18,480 ] [ INFO  ] LR59FFD3A62F : ResponseISO [ | Field: (2) Value: (254720844418)| Field: (3) Value: (400000)| Field: (37) Value: (LR59FFD3A62F)| Field: (39) Value: (00)| Field: (44) Value: (LN12677D5E97) ]
+[ 2016-11-23 23:03:59,116 ] [ INFO  ] Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@67f89fa3: startup date [Wed Nov 23 23:03:59 EAT 2016]; root of context hierarchy
+[ 2016-11-23 23:03:59,188 ] [ INFO  ] Loading XML bean definitions from class path resource [Spring-Quartz.xml]
+[ 2016-11-23 23:03:59,942 ] [ INFO  ] Starting beans in phase 2147483647
+[ 2016-11-23 23:03:59,943 ] [ INFO  ] Starting Quartz Scheduler now
+[ 2016-11-23 23:06:07,597 ] [ INFO  ] Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@67f89fa3: startup date [Wed Nov 23 23:06:07 EAT 2016]; root of context hierarchy
+[ 2016-11-23 23:06:07,684 ] [ INFO  ] Loading XML bean definitions from class path resource [Spring-Quartz.xml]
+[ 2016-11-23 23:06:08,484 ] [ INFO  ] Starting beans in phase 2147483647
+[ 2016-11-23 23:06:08,484 ] [ INFO  ] Starting Quartz Scheduler now
+[ 2016-11-23 23:07:12,287 ] [ INFO  ] Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@67f89fa3: startup date [Wed Nov 23 23:07:12 EAT 2016]; root of context hierarchy
+[ 2016-11-23 23:07:12,412 ] [ INFO  ] Loading XML bean definitions from class path resource [Spring-Quartz.xml]
+[ 2016-11-23 23:07:13,227 ] [ INFO  ] Starting beans in phase 2147483647
+[ 2016-11-23 23:07:13,227 ] [ INFO  ] Starting Quartz Scheduler now
