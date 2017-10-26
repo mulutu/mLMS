@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans spring-beans-3.0.xsd">
+    <bean id="jobA" class="com.mpango.Util.cron.ProcessLoanApplications"/>
+    <bean id="jobB" class="com.mpango.Util.cron.UpdateEMISchedule"/>
+    <bean id="jobC" class="com.mpango.Util.cron.ProcessLoanRepayments"/>
+    <bean id="jobD" class="com.mpango.Util.cron.SendSMS"/>
+    <!-- Quartz Job -->
+    <bean name="JobA" class="org.springframework.scheduling.quartz.JobDetailFactoryBean">
+        <property name="jobClass" value="com.mpango.Util.cron.ProcessLoanApplications" />
+    </bean>
+    <bean name="JobB" class="org.springframework.scheduling.quartz.JobDetailFactoryBean">
+        <property name="jobClass" value="com.mpango.Util.cron.UpdateEMISchedule" />
+    </bean>
+    <bean name="JobC" class="org.springframework.scheduling.quartz.JobDetailFactoryBean">
+        <property name="jobClass" value="com.mpango.Util.cron.ProcessLoanRepayments" />
+    </bean>
+    <bean name="JobD" class="org.springframework.scheduling.quartz.JobDetailFactoryBean">
+        <property name="jobClass" value="com.mpango.Util.cron.SendSMS" />
+    </bean>
+    <!-- Cron Trigger, run every 5 seconds -->
+    <bean id="cronTriggerJobA" class="org.springframework.scheduling.quartz.CronTriggerFactoryBean">
+        <property name="jobDetail" ref="JobA" />
+        <property name="cronExpression" value="0/5 * * * * ?" />
+    </bean>
+    <bean id="cronTriggerJobB" class="org.springframework.scheduling.quartz.CronTriggerFactoryBean">
+        <property name="jobDetail" ref="JobB" />
+        <property name="cronExpression" value="0/5 * * * * ?" />
+    </bean>
+    <bean id="cronTriggerJobC" class="org.springframework.scheduling.quartz.CronTriggerFactoryBean">
+        <property name="jobDetail" ref="JobC" />
+        <property name="cronExpression" value="0/5 * * * * ?" />
+    </bean>
+    <bean id="cronTriggerJobD" class="org.springframework.scheduling.quartz.CronTriggerFactoryBean">
+        <property name="jobDetail" ref="JobD" />
+        <property name="cronExpression" value="0/5 * * * * ?" />
+    </bean>
+    <bean class="org.springframework.scheduling.quartz.SchedulerFactoryBean">
+        <property name="triggers">
+            <list>
+                <ref bean="cronTriggerJobA" />
+                <ref bean="cronTriggerJobB" />
+                <ref bean="cronTriggerJobC" />
+                <ref bean="cronTriggerJobD" />
+            </list>
+        </property>
+    </bean>
+</beans>
