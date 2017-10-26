@@ -1,0 +1,66 @@
+<txnmgr name="txnmgr" logger="Q2" class="org.jpos.transaction.TransactionManager">
+    <property name="space" value="tspace:mySpace"/>
+    <property name="queue" value="TransactionQueue"/>
+    <property name="min-sessions" value="100"/> 
+    <property name="max-sessions" value="800"/> 
+    
+    <!--participant class="com.mpango.lms.loanManager" logger="Q2">  
+        <property name="loanmanager" value="LoanManagerWorker" />
+    </participant> 
+    <group name="LoanManagerWorker">
+        <participant class="com.mpango.myparticipant.db.Open" logger="Q2"></participant>
+        <participant class="com.mpango.myparticipant.LoanManagerWorker" logger="Q2"></participant>
+        <participant class="com.mpango.myparticipant.db.Close" logger="Q2"></participant>
+    </group -->
+    
+    <participant class="com.mpango.lms.Switch" logger="Q2">
+        <property name="200000" value="LoanBalanceInquiry" />
+        <property name="210000" value="AccountBalanceInquiry" />
+        <property name="300000" value="LoanRepayment" />
+        <property name="400000" value="LoanApplication" />        
+    </participant>    
+    <!-- group name="NetworkManagement">
+        <participant class="main.java.com.mycompany.NetworkManagementResponse" logger="Q2" />
+    </group -->
+    <group name="LoanBalanceInquiry">
+        <participant class="com.mpango.myparticipant.iso.CheckField" logger="Q2" >
+            <property name="fields" value="2,3,37,42" /> 
+        </participant>
+        <participant class="com.mpango.myparticipant.db.Open" logger="Q2"></participant>
+        <participant class="com.mpango.myparticipant.loanbalanceinquiry.ValidateLoan" logger="Q2"></participant>
+        <participant class="com.mpango.myparticipant.loanbalanceinquiry.LoanBalanceInquirySendResponse" logger="Q2"></participant>
+        <participant class="com.mpango.myparticipant.db.Close" logger="Q2"></participant>
+    </group>
+    <group name="AccountBalanceInquiry">
+        <participant class="com.mpango.myparticipant.iso.CheckField" logger="Q2" >
+            <property name="fields" value="2,3,37,42" /> 
+        </participant>
+        <participant class="com.mpango.myparticipant.db.Open" logger="Q2"></participant>
+        <participant class="com.mpango.myparticipant.accountbalance.ValidateAccount" logger="Q2"></participant>
+        <participant class="com.mpango.myparticipant.accountbalance.AccountBalanceInquirySendResponse" logger="Q2"></participant>
+        <participant class="com.mpango.myparticipant.db.Close" logger="Q2"></participant>
+    </group>
+    <group name="LoanRepayment">
+        <participant class="com.mpango.myparticipant.iso.CheckField" logger="Q2" >
+            <property name="fields" value="2,3,4,37,42,102,103" /> 
+        </participant>
+        <participant class="com.mpango.myparticipant.db.Open" logger="Q2"></participant>
+        <!--participant class="com.mpango.myparticipant.loanrepayment.CheckLoanStatus" logger="Q2"></participant -->
+        <participant class="com.mpango.myparticipant.loanrepayment.LoanRepayment" logger="Q2"></participant>
+        <participant class="com.mpango.myparticipant.loanrepayment.LoanRepaymentSendResponse" logger="Q2"></participant>
+        <participant class="com.mpango.myparticipant.db.Close" logger="Q2"></participant>
+    </group>
+    <group name="LoanApplication">
+        <participant class="com.mpango.myparticipant.iso.CheckField" logger="Q2" >
+            <property name="fields" value="2,3,4,9,18,37" /> 
+        </participant>
+        <participant class="com.mpango.myparticipant.db.Open" logger="Q2"></participant>
+        <participant class="com.mpango.myparticipant.loanapplication.ValidateCustomer" logger="Q2"></participant>
+        <!--participant class="com.mpango.myparticipant.loanapplication.CustomerValidation" logger="Q2"></participant>
+        <participant class="com.mpango.myparticipant.loanapplication.CheckCRBStatus" logger="Q2"></participant -->
+        <!-- participant class="com.mpango.myparticipant.loanapplication.LoanDisbursement" logger="Q2"></participant -->
+        <participant class="com.mpango.myparticipant.loanapplication.LoanApplicationSendResponse" logger="Q2"></participant>
+        <participant class="com.mpango.myparticipant.db.Close" logger="Q2"></participant>
+    </group>   
+       
+</txnmgr>

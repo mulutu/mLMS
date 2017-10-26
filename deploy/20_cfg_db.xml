@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<lmsconfig name="LMSConfig" class="com.mpango.Util.db.LMSConfig" logger="Q2">
+  <property name="dbtype" value="MYSQL" />
+  <property name="host" value="127.0.0.1" />
+  <property name="port" value="3306" />
+  <property name="dbname" value="mpango" />
+  <property name="username" value="root" />
+  <property name="password" value="l00t" />
+  <property name="connectionpool" value="30" />
+</lmsconfig>
+
